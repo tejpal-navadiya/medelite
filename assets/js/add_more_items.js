@@ -58,12 +58,21 @@ function AddMoreItem(type)
                     '<span class="help" id="msg2"></span>'+
                 '</div>'+
             '</div>'+
+            // '<div class="col-sm-6 col-md-3">'+
+            //     '<div class="form-group">'+
+            //         '<input type="text" maxlength="100" name="address_state[]" id="address_state'+cnt+'"  class="form-control" placeholder="State" value="" >'+
+            //         '<span class="help" id="msg2"></span>'+
+            //     '</div>'+
+            // '</div>'+
+
             '<div class="col-sm-6 col-md-3">'+
                 '<div class="form-group">'+
-                    '<input type="text" maxlength="100" name="address_state[]" id="address_state'+cnt+'"  class="form-control" placeholder="State" value="" >'+
+                    '<select data-placeholder="Select State" name="address_state[]" class="form-control  state_dropdown" id="address_state'+cnt+'">'+
+                    '</select>'+
                     '<span class="help" id="msg2"></span>'+
                 '</div>'+
             '</div>'+
+
             '<div class="col-sm-6 col-md-3">'+
                 '<div class="form-group">'+
                     '<input type="text" maxlength="100" name="address_zipcode[]" id="address_zipcode'+cnt+'"  class="form-control" placeholder="Zip Code" value="" >'+
@@ -151,6 +160,12 @@ function AddMoreItem(type)
         if($(degree_ele).length)
         {
             InitDegreeDropDown(degree_ele);
+        }
+
+        var state_ele='#address_state'+cnt; 
+        if($(state_ele).length)
+        {
+            InitStateDropDown(state_ele);
         }
 
     }
@@ -264,6 +279,14 @@ function AddMoreItem(type)
             showOtherMonths: true,
             selectOtherMonths: true
         });
+
+        var exam_type_ele='#exam_type'+cnt; 
+        // alert(institute_type_ele);
+        if($(exam_type_ele).length)
+        {
+            InitexamTypeDropDown(exam_type_ele);
+        }
+
         
     }
     
@@ -505,6 +528,45 @@ function AddMoreItem(type)
                 extensions: ['jpg', 'jpeg', 'png', 'gif','pdf','doc','txt','docx'] // allowed extensions or types {Array}
         
               });
+
+        var specialty_ele='#specialty'+cnt; 
+        // alert(institute_type_ele);
+        if($(specialty_ele).length)
+        {
+            InitSpecialtyDropDown(specialty_ele);
+        }
+
+        var focus_ele='#focus'+cnt; 
+        // alert(institute_type_ele);
+        if($(focus_ele).length)
+        {
+            InitFocusDropDown(focus_ele);
+        }
+
+        var status_ele='#status'+cnt; 
+        // alert(institute_type_ele);
+        if($(status_ele).length)
+        {
+            InitStatusDropDown(status_ele);
+        }
+
+        var moc_status_ele='#moc_status'+cnt; 
+        // alert(institute_type_ele);
+        if($(moc_status_ele).length)
+        {
+            InitMOCOCCDropDown(moc_status_ele);
+        }
+
+        var meeting_moc_ele='#meeting_moc'+cnt; 
+        // alert(institute_type_ele);
+        if($(meeting_moc_ele).length)
+        {
+            InitMeetingMOCDropDown(meeting_moc_ele);
+        }
+
+        
+        
+        
     }
     if(type=="practice_employer")
     {
@@ -560,9 +622,16 @@ function AddMoreItem(type)
                             '<span class="help" id="msg2"></span>'+
                         '</div>'+
                     '</div>'+
+                    // '<div class="col-sm-6 col-md-3">'+
+                    //     '<div class="form-group">'+
+                    //         '<input type="text" maxlength="100" name="address_state[]" id="address_state'+cnt+'"  class="form-control" placeholder="State" value="" >'+
+                    //         '<span class="help" id="msg2"></span>'+
+                    //     '</div>'+
+                    // '</div>'+
                     '<div class="col-sm-6 col-md-3">'+
                         '<div class="form-group">'+
-                            '<input type="text" maxlength="100" name="address_state[]" id="address_state'+cnt+'"  class="form-control" placeholder="State" value="" >'+
+                            '<select data-placeholder="Select State" name="address_state[]" class="form-control  state_dropdown" id="address_state'+cnt+'">'+
+                            '</select>'+
                             '<span class="help" id="msg2"></span>'+
                         '</div>'+
                     '</div>'+
@@ -648,6 +717,20 @@ function AddMoreItem(type)
         {
             InitCountryDropDown(country_ele);
         }
+
+        var practice_type_ele='#practice_type'+cnt; 
+        // alert(institute_type_ele);
+        if($(practice_type_ele).length)
+        {
+            InitPracticeTypeDropDown(practice_type_ele);
+        }
+
+        var state_ele='#address_state'+cnt; 
+        if($(state_ele).length)
+        {
+            InitStateDropDown(state_ele);
+        }
+		
     }
     if(type=="hospital-facility")
     {
@@ -694,9 +777,16 @@ function AddMoreItem(type)
                         '<span class="help" id="msg2"></span>'+
                     '</div>'+
                 '</div>'+
+                // '<div class="col-sm-6 col-md-3">'+
+                //     '<div class="form-group">'+
+                //         '<input type="text" maxlength="100" name="address_state[]" id="address_state'+cnt+'"  class="form-control" placeholder="State" value="" >'+
+                //         '<span class="help" id="msg2"></span>'+
+                //     '</div>'+
+                // '</div>'+
                 '<div class="col-sm-6 col-md-3">'+
                     '<div class="form-group">'+
-                        '<input type="text" maxlength="100" name="address_state[]" id="address_state'+cnt+'"  class="form-control" placeholder="State" value="" >'+
+                        '<select data-placeholder="Select State" name="address_state[]" class="form-control  state_dropdown" id="address_state'+cnt+'">'+
+                        '</select>'+
                         '<span class="help" id="msg2"></span>'+
                     '</div>'+
                 '</div>'+
@@ -754,6 +844,12 @@ function AddMoreItem(type)
         if($(country_ele).length)
         {
             InitCountryDropDown(country_ele);
+        }
+
+        var state_ele='#address_state'+cnt; 
+        if($(state_ele).length)
+        {
+            InitStateDropDown(state_ele);
         }
     }
 

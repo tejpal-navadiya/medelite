@@ -41,15 +41,11 @@
 
   <ul class="navbar-nav ml-auto">
     <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <div class="user-panel d-flex">
-                <div class="image">
-                    <img src="assets/img/avatar5.png" class="img-circle elevation-2" alt="User Image">
-                </div>
-                <div class="info">
-                    <?php echo $_SESSION['me_user_name'];?>
-                </div>
-            </div>
+        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <img src="assets/img/avatar5.png" class="img-circle user_img" alt="User Image">
+            <span class="info dropdown-toggle">
+                <?php echo $_SESSION['me_user_name'];?>
+            </span>
         </a>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="index.php?pid=add_user_profile">User Profile</a>

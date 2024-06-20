@@ -1,4 +1,4 @@
-<aside class="main-sidebar  elevation-4" style="">
+<aside class="main-sidebar" style="">
     <!-- <div class="custom-toggle-sidebar-button-wrapper">
         <a  onclick="ToggleClickById('main-sidebar-toggle-button')" href="#" role="button"><i class="fas fa-bars"></i></a> 
     </div> -->
@@ -167,13 +167,6 @@
                     </a>
                 </li>
             <?php }?>    
-              <li class="nav-item">
-                  <a href="process/logout.php" class="nav-link">
-                      <!-- <i class="nav-icon fas fa-signout"></i> -->
-                      <i class="nav-icon fas fa-sign-out-alt"></i>
-                      <p>Logout</p>
-                  </a>
-              </li>   
               
               
 
@@ -184,9 +177,9 @@
 
                   <a href="#settings" class="nav-link <?php if(isset($active_sidebar_tab) && $active_sidebar_tab=="provider_type_list" || $active_sidebar_tab=="provider_ethnicity"  || $active_sidebar_tab=="institution_type" || $active_sidebar_tab=="degree" || $active_sidebar_tab=="exam_type" || $active_sidebar_tab=="speciality_subspeciality" || $active_sidebar_tab=="focus" || $active_sidebar_tab=="practice_facility_type" || $active_sidebar_tab=="cert_status" || $active_sidebar_tab=="moc_occ_status" || $active_sidebar_tab=="license_type" || $active_sidebar_tab=="website" || $active_sidebar_tab=="request_type" || $active_sidebar_tab=="method_of_request" ){echo 'active';} ?>">
                       <!-- <i class="nav-icon fas fa-signout"></i> -->
-                      <i class="nav-icon fas fa-sign-out-alt"></i>
+                      <i class="nav-icon fas fa-cog"></i>
                       
-                      <p>Setting</p><div class='fa fa-caret-down right'></div>
+                      <p>Setting</p><i class="fa fa-caret-down right"></i>
                   </a>
                   <ul class="nav nav-treeview">
                     <li class="nav-item">

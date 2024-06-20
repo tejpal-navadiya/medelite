@@ -256,3 +256,274 @@ function InitDegreeDropDown(ele)
         // minimumInputLength: 1,
     });
 }
+
+function InitexamTypeDropDown(ele)
+{
+  // alert('data:::'+ele);
+    $(ele).select2({
+        theme: 'bootstrap4',
+        allowClear: false,
+        ajax: {
+          type: "POST",
+          url: api_url+"exam_type/select_list.php",
+          headers: {
+            'apitoken': apitoken
+          },
+          dataType: 'json',
+          delay: 250,
+          data: function (params) {
+            // alert(params);
+            return {
+              search: params.term, // search term
+              page_no: params.page,
+              page_limit: 10,
+
+            };
+          },
+          processResults: function (data, params) {
+            params.page = params.page || 1;
+            return {
+              results: data.data,
+              pagination: {
+                more: params.page < data.total_page
+              }
+            };
+          },
+          cache: true
+        },
+        // minimumInputLength: 1,
+    });
+}
+
+function InitSpecialtyDropDown(ele)
+{
+  // alert('data:::'+ele);
+    $(ele).select2({
+        theme: 'bootstrap4',
+        allowClear: false,
+        ajax: {
+          type: "POST",
+          url: api_url+"speciality_subspeciality/select_list.php",
+          headers: {
+            'apitoken': apitoken
+          },
+          dataType: 'json',
+          delay: 250,
+          data: function (params) {
+            // alert(params);
+            return {
+              search: params.term, // search term
+              page_no: params.page,
+              page_limit: 10,
+
+            };
+          },
+          processResults: function (data, params) {
+            params.page = params.page || 1;
+            return {
+              results: data.data,
+              pagination: {
+                more: params.page < data.total_page
+              }
+            };
+          },
+          cache: true
+        },
+        // minimumInputLength: 1,
+    });
+}
+
+function InitFocusDropDown(ele)
+{
+  // alert('data:::'+ele);
+    $(ele).select2({
+        theme: 'bootstrap4',
+        allowClear: false,
+        ajax: {
+          type: "POST",
+          url: api_url+"focus/select_list.php",
+          headers: {
+            'apitoken': apitoken
+          },
+          dataType: 'json',
+          delay: 250,
+          data: function (params) {
+            // alert(params);
+            return {
+              search: params.term, // search term
+              page_no: params.page,
+              page_limit: 10,
+
+            };
+          },
+          processResults: function (data, params) {
+            params.page = params.page || 1;
+            return {
+              results: data.data,
+              pagination: {
+                more: params.page < data.total_page
+              }
+            };
+          },
+          cache: true
+        },
+        // minimumInputLength: 1,
+    });
+}
+
+function InitStatusDropDown(ele)
+{
+  // alert('data:::'+ele);
+    $(ele).select2({
+        theme: 'bootstrap4',
+        allowClear: false,
+        ajax: {
+          type: "POST",
+          url: api_url+"cert_status/select_list.php",
+          headers: {
+            'apitoken': apitoken
+          },
+          dataType: 'json',
+          delay: 250,
+          data: function (params) {
+            // alert(params);
+            return {
+              search: params.term, // search term
+              page_no: params.page,
+              page_limit: 10,
+
+            };
+          },
+          processResults: function (data, params) {
+            params.page = params.page || 1;
+            return {
+              results: data.data,
+              pagination: {
+                more: params.page < data.total_page
+              }
+            };
+          },
+          cache: true
+        },
+        // minimumInputLength: 1,
+    });
+}
+
+
+function InitMOCOCCDropDown(ele)
+{
+  // alert('data:::'+ele);
+    $(ele).select2({
+        theme: 'bootstrap4',
+        allowClear: false,
+        ajax: {
+          type: "POST",
+          url: api_url+"moc_occ_status/select_list.php",
+          headers: {
+            'apitoken': apitoken
+          },
+          dataType: 'json',
+          delay: 250,
+          data: function (params) {
+            // alert(params);
+            return {
+              search: params.term, // search term
+              page_no: params.page,
+              page_limit: 10,
+
+            };
+          },
+          processResults: function (data, params) {
+            params.page = params.page || 1;
+            return {
+              results: data.data,
+              pagination: {
+                more: params.page < data.total_page
+              }
+            };
+          },
+          cache: true
+        },
+        // minimumInputLength: 1,
+    });
+}
+
+
+function InitMeetingMOCDropDown(ele)
+{
+  // alert('data:::'+ele);
+    $(ele).select2({
+        theme: 'bootstrap4',
+        allowClear: false,
+        ajax: {
+          type: "POST",
+          url: api_url+"moc_occ_status/select_list.php",
+          headers: {
+            'apitoken': apitoken
+          },
+          dataType: 'json',
+          delay: 250,
+          data: function (params) {
+            // alert(params);
+            return {
+              search: params.term, // search term
+              page_no: params.page,
+              page_limit: 10,
+
+            };
+          },
+          processResults: function (data, params) {
+            params.page = params.page || 1;
+            return {
+              results: data.data,
+              pagination: {
+                more: params.page < data.total_page
+              }
+            };
+          },
+          cache: true
+        },
+        // minimumInputLength: 1,
+    });
+}
+
+function InitPracticeTypeDropDown(ele)
+{
+  // alert('data:::'+ele);
+    $(ele).select2({
+        theme: 'bootstrap4',
+        allowClear: false,
+        ajax: {
+          type: "POST",
+          url: api_url+"practice_facility_type/select_list.php",
+          headers: {
+            'apitoken': apitoken
+          },
+          dataType: 'json',
+          delay: 250,
+          data: function (params) {
+            // alert(params);
+            return {
+              search: params.term, // search term
+              page_no: params.page,
+              page_limit: 10,
+
+            };
+          },
+          processResults: function (data, params) {
+            params.page = params.page || 1;
+            return {
+              results: data.data,
+              pagination: {
+                more: params.page < data.total_page
+              }
+            };
+          },
+          cache: true
+        },
+        // minimumInputLength: 1,
+    });
+}
+
+
+

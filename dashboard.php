@@ -76,7 +76,7 @@ if(isset($is_provider_user) && $is_provider_user==1)
                 <div class="row">
                     
                     <div class="col-lg-3 col-md-6">
-                        <div class="small-box custom-summary-box bg-danger">
+                        <div class="small-box custom-summary-box bg-purple">
                             <div class="icon">
                                 <i class="fas fa-user"></i>
                             </div>
@@ -87,7 +87,7 @@ if(isset($is_provider_user) && $is_provider_user==1)
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <div class="small-box custom-summary-box bg-warning">
+                        <div class="small-box custom-summary-box bg-danger">
                             <div class="icon isl">
                                 <i class="fas fa-exclamation-triangle"></i>
                             </div>
@@ -99,7 +99,7 @@ if(isset($is_provider_user) && $is_provider_user==1)
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <div class="small-box custom-summary-box bg-danger">
+                        <div class="small-box custom-summary-box bg-warning">
                             <div class="icon">
                                 <i class="fas fa-user"></i>
                             </div>
@@ -110,7 +110,7 @@ if(isset($is_provider_user) && $is_provider_user==1)
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <div class="small-box custom-summary-box bg-warning">
+                        <div class="small-box custom-summary-box bg-success">
                             <div class="icon isl">
                                 <i class="fas fa-exclamation-triangle"></i>
                             </div>
@@ -246,7 +246,7 @@ if(isset($is_provider_user) && $is_provider_user==1)
 
                                     <div class="card-body">
                                         <?php include "message.php"; ?>
-                                    <table id="providerTable" class="data-table table table-hover" style="border: 1px solid grey; width: 1287px;">
+                                    <table id="providerTable" class="data-table table table-hover" style="border: 1px solid grey;">
                                         <thead>
                                             <tr>
                                                 <!-- <th><input type="checkbox" id="select_all_providers" name="select_all_providers" /> -->
@@ -294,7 +294,8 @@ if(isset($is_provider_user) && $is_provider_user==1)
                                     </div>
                                     <div class="card-body">
                                         <?php include "message.php";  ?>
-                                        <table id="licensureTable" class="data-table table table-hover" style="border:1px solid grey;">
+                                        <div class="col-12 table-responsive">
+                                        <table id="licensureTable" class="data-table table table-hover text-nowrap" style="border:1px solid grey;">
                                             <thead>
                                                 <tr>
                                                     <!-- <th><input type="checkbox" id="select_all_providers" name="select_all_providers" /> -->
@@ -303,11 +304,10 @@ if(isset($is_provider_user) && $is_provider_user==1)
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                
-                                           
-                                        </tbody>
-                                    </table>
-                                </div>
+                                            </tbody>
+                                        </table>
+                                        </div>
+                                    </div>
 
                             </div>
 
