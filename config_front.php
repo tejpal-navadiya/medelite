@@ -8,7 +8,7 @@ else
 {
 	session_start();
 }
-$api_url = "http://localhost/khushboo/medelite_new/API/";
+$api_url = "http://localhost/GitHub%20Project/medelite_new/API/";
     
 
 define("ADMIN_CRM_TITLE","MedElite");

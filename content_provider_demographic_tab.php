@@ -1,3 +1,9 @@
+<?php
+// error_reporting(E_ALL);
+// ini_set('display_errors', '1');
+require_once("config.php");
+
+?>
 <!-- <div class="row">
     <div class="col-md-12"> -->
         <div class="card">
@@ -108,7 +114,24 @@
                             <div class="form-group">
                                 <!-- <input type="text" name="provider_type" data-is_validate="1" id="provider_type"  class="form-control" placeholder="Provider Type" value="<?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['provider_type'])){echo $OnBordingDetails['provider_type'];} ?>"  > -->
 
-                                <select data-placeholder="Select Provider" <?php echo $readonly;?> data-is_validate="0" name="provider_type" id="provider_type"  class="select2 form-control" >
+                                <select data-placeholder="Select Provider" <?php echo $readonly;?> name="provider_type" id="provider_type"  class="select2 form-control" >
+                                    <option value="">Select Title</option>
+                                    <?php
+
+                                        $sql = "SELECT id, name FROM me_provider_type where is_deleted='0'";
+
+                                        $result = $conn->query($sql);
+
+                                        if ($result->num_rows > 0) {
+                                            while ($row = $result->fetch_assoc()) {
+                                                echo '<option value="' . $row["id"] . '">' . $row["name"] . '</option>';
+                                            }
+                                        } else {
+                                            echo '<option value="">No providers found</option>';
+                                        }
+                                               
+                                    ?>
+
 
                                 </select>
                                 <span class="help" id="msg2"></span>
@@ -290,6 +313,22 @@
                             <div class="form-group">
                                 <select name="ethnicity" <?php echo $readonly;?> class="form-control select2" id="ethnicity">
                                     <option value="">Select Ethnicity</option>
+                                    <?php
+
+                                        $sql = "SELECT id, name FROM me_provider_ethnicity where is_deleted='0'";
+
+                                        $result = $conn->query($sql);
+
+                                        if ($result->num_rows > 0) {
+                                            while ($row = $result->fetch_assoc()) {
+                                                echo '<option value="' . $row["id"] . '">' . $row["name"] . '</option>';
+                                            }
+                                        } else {
+                                            echo '<option value="">No providers found</option>';
+                                        }
+                                               
+                                    ?>
+
                                     
                                 </select>
                                 <span class="help" id="msg2"></span>

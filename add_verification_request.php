@@ -93,7 +93,27 @@ require_once("config.php");
                                 <div class="col-sm-4">
                                     <label for="firstname" class="control-label">Verification request type</label>
                                     <div class="form-group">
-                                        <input type="text" name="board_name" class="form-control " placeholder="Verification request type" value=""  >
+                                        <!-- <input type="text" name="board_name" class="form-control " placeholder="Verification request type" value=""  > -->
+                                        <select name="request_type" id="request_type<?php echo $cnt; ?>" class="form-control" >
+
+                                            <option value="">Select Type</option>
+
+                                            <?php
+                                                $sql = "SELECT id, name FROM me_request_type where is_deleted='0'";
+
+                                                $result = $conn->query($sql);
+
+                                                if ($result->num_rows > 0) {
+                                                    while ($row = $result->fetch_assoc()) {
+                                                        echo '<option value="' . $row["id"] . '">' . $row["name"] . '</option>';
+                                                    }
+                                                } else {
+                                                    echo '<option value="">No found</option>';
+                                                }
+                                                
+                                            ?>
+
+                                            </select>
                                         <span class="help" id="msg2"></span>
                                     </div>
                                 </div>
@@ -107,7 +127,7 @@ require_once("config.php");
                                         <i class="fas fa-folder fa-stack-2x"></i>
                                         <i class="fas fa-search fa-stack-1x fa-inverse" style="margin-left: -0.2em; margin-top: 0.1em;"></i>
                                     </span>
-                                    <span class="help" id="msg2"></span>
+                                    <szpan class="help" id="msg2"></span>
                                     </div>
                                 </div>
                                 <div class="col-md-1">
@@ -152,10 +172,30 @@ require_once("config.php");
                                 <div class="col-sm-6">
                                     <label for="firstname" class="control-label">Method Of Request</label>
                                     <div class="form-group">
-                                        <input type="email" name="board_email" id="board_email"  class="form-control " placeholder="Method Of Request" value=""  >
+                                        <!-- <input type="email" name="board_email" id="board_email"  class="form-control " placeholder="Method Of Request" value=""  > -->
+                                        <select name="request_method" id="request_method<?php echo $cnt; ?>" class="form-control" >
+
+                                            <option value="">Select Method</option>
+
+                                            <?php
+                                                $sql = "SELECT id, name FROM me_method_of_request where is_deleted='0'";
+
+                                                $result = $conn->query($sql);
+
+                                                if ($result->num_rows > 0) {
+                                                    while ($row = $result->fetch_assoc()) {
+                                                        echo '<option value="' . $row["id"] . '">' . $row["name"] . '</option>';
+                                                    }
+                                                } else {
+                                                    echo '<option value="">No found</option>';
+                                                }
+                                                    
+                                            ?>
+                                        </select>
                                         <span class="help" id="msg2"></span>
                                     </div>
                                 </div>
+
                                 <div class="col-sm-6">
                                     <label for="board_email_licence" class="control-label">Note</label>
                                     <div class="form-group">

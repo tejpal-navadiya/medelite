@@ -1,4 +1,5 @@
 <?php 
+    require_once("config.php"); 
     $cnt=$cnt_i+1;
 ?>
 <div class="row col-sm-12" id="content_item<?php echo $cnt; ?>">
@@ -18,7 +19,25 @@
         <label for="firstname"  class="control-label">Website </label>
         <div class="form-group">
             <select name="website[]" id="website<?php echo $cnt; ?>" class="form-control" >
-                <option value="AMA" <?php if(isset($cur_detail['website']) && $cur_detail['website']=="AMA"){ echo "selected";} ?>>AMA</option>
+
+                <!-- <option value="AMA" <?php if(isset($cur_detail['website']) && $cur_detail['website']=="AMA"){ echo "selected";} ?>>AMA</option> -->
+                <option value="">Select Website</option>
+                
+                <?php
+                    $sql = "SELECT id, name FROM me_website where is_deleted='0'";
+
+                    $result = $conn->query($sql);
+
+                    if ($result->num_rows > 0) {
+                        while ($row = $result->fetch_assoc()) {
+                            echo '<option value="' . $row["id"] . '">' . $row["name"] . '</option>';
+                        }
+                    } else {
+                        echo '<option value="">No found</option>';
+                    }
+                    
+                ?>
+
             </select>
             <!-- <input type="text" name="website[]" id="website<?php echo $cnt; ?>"  class="form-control" placeholder="Website" value=""  > -->
             <span class="help" id="msg2"></span>

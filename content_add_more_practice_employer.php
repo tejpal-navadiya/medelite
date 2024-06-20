@@ -1,4 +1,5 @@
-<?php 
+<?php
+    require_once("config.php"); 
     $cnt=$cnt_i+1;
 ?>
 <div class="row col-sm-12" id="content_item<?php echo $cnt; ?>">                            
@@ -22,6 +23,20 @@
             <select name="practice_type[]" class="form-control" id="practice_type<?php echo $cnt; ?>" data-is_validate="1">
                 <option value="">Select Type</option>
                 
+                <?php
+                    $sql = "SELECT id, name FROM me_practice_facility_type where is_deleted='0'";
+
+                    $result = $conn->query($sql);
+
+                    if ($result->num_rows > 0) {
+                        while ($row = $result->fetch_assoc()) {
+                            echo '<option value="' . $row["id"] . '">' . $row["name"] . '</option>';
+                        }
+                    } else {
+                        echo '<option value="">No found</option>';
+                    }
+                    
+                ?>
             </select>
             <span class="help" id="msg2"></span>
         </div>

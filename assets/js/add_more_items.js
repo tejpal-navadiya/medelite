@@ -10,7 +10,7 @@ function AddMoreItem(type)
         '<div class="row col-sm-12" id="content_item'+cnt+'" style="border-top:1px solid;padding-top:10px;">'+
             '<div class="col-sm-8 col-md-9"><h5><u>Institution '+cnt+'</u></h5></div><div class="col-sm-4 col-md-3 text-right"><button type="button" onclick="RemoveItem(this);" style="cursor:pointer;" class="btn btn-sm btn-danger">X</button></div>'+
             '<div class="col-sm-6 col-md-4">'+
-                '<label for="firstname" class="control-label">Institution Type </label>'+
+                '<label for="firstname" class="control-label">Institution Type 321111111</label>'+
                 '<div class="form-group">'+
                     '<select name="institute_type[]" class="form-control" id="institute_type'+cnt+'">'+
                         '<option value="">Select Type</option>'+
@@ -82,6 +82,7 @@ function AddMoreItem(type)
                 '<label for="firstname" class="control-label">Degree </label>'+
                 '<div class="form-group">'+
                     '<select name="degree[]" class="form-control" id="degree'+cnt+'">'+
+                        '<option value="">Select Degree</option>'+
                     '</select>'+
                     '<span class="help" id="msg2"></span>'+
                 '</div>'+
@@ -137,6 +138,21 @@ function AddMoreItem(type)
         {
             InitCountryDropDown(country_ele);
         }
+
+        var institute_type_ele='#institute_type'+cnt; 
+        // alert(institute_type_ele);
+        if($(institute_type_ele).length)
+        {
+            InitInstituteTypeDropDown(institute_type_ele);
+        }
+
+        var degree_ele='#degree'+cnt; 
+        // alert(institute_type_ele);
+        if($(degree_ele).length)
+        {
+            InitDegreeDropDown(degree_ele);
+        }
+
     }
     if(type=="exam-history")
     {

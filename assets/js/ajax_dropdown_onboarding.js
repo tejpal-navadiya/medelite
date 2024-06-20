@@ -3,6 +3,7 @@ var apitoken = $('meta[name="apitoken"]').attr('content');
 
 function InitCountryDropDown(ele)
 {
+  // alert(ele);
     $(ele).select2({
         theme: 'bootstrap4',
         allowClear: false,
@@ -174,4 +175,83 @@ function SubmitLastOnboardingForm(status)
       }, 1000);
     }
   
+}
+
+
+function InitInstituteTypeDropDown(ele)
+{
+  // alert('data:::'+ele);
+    $(ele).select2({
+        theme: 'bootstrap4',
+        allowClear: false,
+        ajax: {
+          type: "POST",
+          url: api_url+"institution_type/select_list.php",
+          headers: {
+            'apitoken': apitoken
+          },
+          dataType: 'json',
+          delay: 250,
+          data: function (params) {
+            // alert(params);
+            return {
+              search: params.term, // search term
+              page_no: params.page,
+              page_limit: 10,
+
+            };
+          },
+          processResults: function (data, params) {
+            params.page = params.page || 1;
+            return {
+              results: data.data,
+              pagination: {
+                more: params.page < data.total_page
+              }
+            };
+          },
+          cache: true
+        },
+        // minimumInputLength: 1,
+    });
+}
+
+
+
+function InitDegreeDropDown(ele)
+{
+  // alert('data:::'+ele);
+    $(ele).select2({
+        theme: 'bootstrap4',
+        allowClear: false,
+        ajax: {
+          type: "POST",
+          url: api_url+"degree/select_list.php",
+          headers: {
+            'apitoken': apitoken
+          },
+          dataType: 'json',
+          delay: 250,
+          data: function (params) {
+            // alert(params);
+            return {
+              search: params.term, // search term
+              page_no: params.page,
+              page_limit: 10,
+
+            };
+          },
+          processResults: function (data, params) {
+            params.page = params.page || 1;
+            return {
+              results: data.data,
+              pagination: {
+                more: params.page < data.total_page
+              }
+            };
+          },
+          cache: true
+        },
+        // minimumInputLength: 1,
+    });
 }

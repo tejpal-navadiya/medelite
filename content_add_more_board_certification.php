@@ -1,4 +1,5 @@
 <?php 
+    require_once("config.php");
     $cnt=$cnt_i+1;
 ?>
 <style>
@@ -75,7 +76,22 @@
         <label for="firstname" class="control-label">Speciality/Subspeciality<span class="text-danger">*</span> </label>
         <div class="form-group">
             <select name="specialty[]" class="form-control select2" id="specialty<?php echo $cnt; ?>" data-is_validate="1">
-                <option value="">Select Option</option>
+                <option value="">Select Speciality/Subspeciality</option>
+                <?php
+                    $sql = "SELECT id, name FROM me_speciality_subspeciality where is_deleted='0'";
+
+                    $result = $conn->query($sql);
+
+                    if ($result->num_rows > 0) {
+                        while ($row = $result->fetch_assoc()) {
+                            echo '<option value="' . $row["id"] . '">' . $row["name"] . '</option>';
+                        }
+                    } else {
+                        echo '<option value="">No found</option>';
+                    }
+                    
+                ?>
+
                 
             </select>
             <span class="help" id="msg2"></span>
@@ -92,7 +108,22 @@
         <label for="firstname" class="control-label">Focus </label>
         <div class="form-group">
             <select name="focus[]" class="form-control select2" id="focus<?php echo $cnt; ?>">
-                <option value="">Select Option</option>
+                <option value="">Select Focus</option>
+                
+                <?php
+                    $sql = "SELECT id, name FROM me_focus where is_deleted='0'";
+
+                    $result = $conn->query($sql);
+
+                    if ($result->num_rows > 0) {
+                        while ($row = $result->fetch_assoc()) {
+                            echo '<option value="' . $row["id"] . '">' . $row["name"] . '</option>';
+                        }
+                    } else {
+                        echo '<option value="">No found</option>';
+                    }
+                    
+                ?>
                 
             </select>
             <span class="help" id="msg2"></span>
@@ -102,7 +133,21 @@
         <label for="firstname" class="control-label">Cert Status </label>
         <div class="form-group">
             <select name="status[]" class="form-control select2" id="status<?php echo $cnt; ?>">
-                <option value="">Select Option</option>
+                <option value="">Select Status</option>
+                <?php
+                    $sql = "SELECT id, name FROM me_cert_status where is_deleted='0'";
+
+                    $result = $conn->query($sql);
+
+                    if ($result->num_rows > 0) {
+                        while ($row = $result->fetch_assoc()) {
+                            echo '<option value="' . $row["id"] . '">' . $row["name"] . '</option>';
+                        }
+                    } else {
+                        echo '<option value="">No found</option>';
+                    }
+                    
+                ?>
                 
             </select>
             <span class="help" id="msg2"></span>
@@ -179,7 +224,23 @@
         <label for="firstname" class="control-label">MOC/OCC Status</label>
         <div class="form-group">
             <select name="moc_status[]" class="form-control select2" id="moc_status<?php echo $cnt; ?>">
-                <option value="">Select Option</option>
+                <option value="">Select Status</option>
+                
+                <?php
+                    $sql = "SELECT id, name FROM me_moc_occ_status where is_deleted='0'";
+
+                    $result = $conn->query($sql);
+
+                    if ($result->num_rows > 0) {
+                        while ($row = $result->fetch_assoc()) {
+                            echo '<option value="' . $row["id"] . '">' . $row["name"] . '</option>';
+                        }
+                    } else {
+                        echo '<option value="">No found</option>';
+                    }
+                    
+                ?>
+
             </select>
             <span class="help" id="msg2"></span>
         </div>
@@ -188,7 +249,21 @@
         <label for="firstname" class="control-label">Meeting MOC/OCC</label>
         <div class="form-group">
             <select name="meeting_moc[]" class="form-control select2" id="meeting_moc<?php echo $cnt; ?>">
-                <option value="">Select Option</option>
+                <option value="">Select Status</option>
+                <?php
+                    $sql = "SELECT id, name FROM me_moc_occ_status where is_deleted='0'";
+
+                    $result = $conn->query($sql);
+
+                    if ($result->num_rows > 0) {
+                        while ($row = $result->fetch_assoc()) {
+                            echo '<option value="' . $row["id"] . '">' . $row["name"] . '</option>';
+                        }
+                    } else {
+                        echo '<option value="">No found</option>';
+                    }
+                    
+                ?>
             </select>
             <span class="help" id="msg2"></span>
         </div>
