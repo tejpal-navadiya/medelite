@@ -1,0 +1,198 @@
+[11-May-2024 15:33:52 Asia/Kolkata] PHP Warning:  include(../../config/config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 2
+[11-May-2024 15:33:52 Asia/Kolkata] PHP Warning:  include(../../config/config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 2
+[11-May-2024 15:33:52 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../config/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 2
+[11-May-2024 15:33:52 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function load_config() in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 4
+[11-May-2024 15:38:31 Asia/Kolkata] PHP Warning:  include(../../config/config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 2
+[11-May-2024 15:38:31 Asia/Kolkata] PHP Warning:  include(../../config/config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 2
+[11-May-2024 15:38:31 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../config/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 2
+[11-May-2024 15:38:31 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function load_config() in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 4
+[11-May-2024 15:44:28 Asia/Kolkata] PHP Warning:  include(../../config/config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 2
+[11-May-2024 15:44:28 Asia/Kolkata] PHP Warning:  include(../../config/config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 2
+[11-May-2024 15:44:28 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../config/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 2
+[11-May-2024 15:44:28 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function load_config() in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 4
+[11-May-2024 15:46:50 Asia/Kolkata] PHP Warning:  include(../../config/config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 2
+[11-May-2024 15:46:50 Asia/Kolkata] PHP Warning:  include(../../config/config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 2
+[11-May-2024 15:46:50 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../config/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 2
+[11-May-2024 15:46:50 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function load_config() in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 4
+[11-May-2024 15:48:05 Asia/Kolkata] PHP Warning:  include(../../config/config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 2
+[11-May-2024 15:48:05 Asia/Kolkata] PHP Warning:  include(../../config/config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 2
+[11-May-2024 15:48:05 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../config/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 2
+[11-May-2024 15:48:05 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function load_config() in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 4
+[11-May-2024 15:48:37 Asia/Kolkata] PHP Warning:  include(../../config/config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 2
+[11-May-2024 15:48:37 Asia/Kolkata] PHP Warning:  include(../../config/config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 2
+[11-May-2024 15:48:37 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../config/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 2
+[11-May-2024 15:48:37 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function load_config() in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 4
+[11-May-2024 16:00:41 Asia/Kolkata] PHP Warning:  include(../../config/config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 2
+[11-May-2024 16:00:41 Asia/Kolkata] PHP Warning:  include(../../config/config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 2
+[11-May-2024 16:00:41 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../config/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 2
+[11-May-2024 16:00:41 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function load_config() in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 4
+[11-May-2024 16:00:53 Asia/Kolkata] PHP Warning:  include(../../config/config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 2
+[11-May-2024 16:00:53 Asia/Kolkata] PHP Warning:  include(../../config/config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 2
+[11-May-2024 16:00:53 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../config/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 2
+[11-May-2024 16:00:53 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function load_config() in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 4
+[11-May-2024 16:07:07 Asia/Kolkata] PHP Warning:  include(../../config/config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 8
+[11-May-2024 16:07:07 Asia/Kolkata] PHP Warning:  include(../../config/config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 8
+[11-May-2024 16:07:07 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../config/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 8
+[11-May-2024 16:07:07 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function load_config() in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 10
+[11-May-2024 16:08:16 Asia/Kolkata] PHP Warning:  include(../../config/config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 8
+[11-May-2024 16:08:16 Asia/Kolkata] PHP Warning:  include(../../config/config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 8
+[11-May-2024 16:08:16 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../config/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 8
+[11-May-2024 16:08:16 Asia/Kolkata] PHP Notice:  Undefined variable: servername in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 30
+[11-May-2024 16:08:16 Asia/Kolkata] PHP Notice:  Undefined variable: dbname in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 30
+[11-May-2024 16:08:16 Asia/Kolkata] PHP Notice:  Undefined variable: username in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 30
+[11-May-2024 16:08:16 Asia/Kolkata] PHP Notice:  Undefined variable: password in /home/yuglogix/medelite.yuglogix.com/API/user_role/list.php on line 30
+[30-May-2024 11:45:57 Asia/Kolkata] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/API/user_role/create.php on line 2
+[30-May-2024 11:45:57 Asia/Kolkata] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/yuglogix/medelite.yuglogix.com/API/user_role/create.php on line 2
+[30-May-2024 11:45:57 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Class 'Carbon\Carbon' not found in /home/yuglogix/medelite.yuglogix.com/helper/functions.php:40
+Stack trace:
+#0 /home/yuglogix/medelite.yuglogix.com/API/user_role/create.php(15): checkToken(NULL, '63792b090a1a73c...')
+#1 {main}
+  thrown in /home/yuglogix/medelite.yuglogix.com/helper/functions.php on line 40
+[30-May-2024 11:46:16 Asia/Kolkata] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/API/user_role/create.php on line 2
+[30-May-2024 11:46:16 Asia/Kolkata] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/yuglogix/medelite.yuglogix.com/API/user_role/create.php on line 2
+[30-May-2024 11:46:16 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Class 'Carbon\Carbon' not found in /home/yuglogix/medelite.yuglogix.com/helper/functions.php:40
+Stack trace:
+#0 /home/yuglogix/medelite.yuglogix.com/API/user_role/create.php(15): checkToken(NULL, '63792b090a1a73c...')
+#1 {main}
+  thrown in /home/yuglogix/medelite.yuglogix.com/helper/functions.php on line 40
+[30-May-2024 11:48:22 Asia/Kolkata] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/API/user_role/create.php on line 2
+[30-May-2024 11:48:22 Asia/Kolkata] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/yuglogix/medelite.yuglogix.com/API/user_role/create.php on line 2
+[30-May-2024 11:48:22 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Class 'Carbon\Carbon' not found in /home/yuglogix/medelite.yuglogix.com/helper/functions.php:40
+Stack trace:
+#0 /home/yuglogix/medelite.yuglogix.com/API/user_role/create.php(15): checkToken(NULL, '63792b090a1a73c...')
+#1 {main}
+  thrown in /home/yuglogix/medelite.yuglogix.com/helper/functions.php on line 40
+[30-May-2024 11:54:34 Asia/Kolkata] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/API/user_role/create.php on line 3
+[30-May-2024 11:54:34 Asia/Kolkata] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/yuglogix/medelite.yuglogix.com/API/user_role/create.php on line 3
+[30-May-2024 11:54:34 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Class 'Carbon\Carbon' not found in /home/yuglogix/medelite.yuglogix.com/helper/functions.php:40
+Stack trace:
+#0 /home/yuglogix/medelite.yuglogix.com/API/user_role/create.php(16): checkToken(NULL, '63792b090a1a73c...')
+#1 {main}
+  thrown in /home/yuglogix/medelite.yuglogix.com/helper/functions.php on line 40
+[30-May-2024 11:55:32 Asia/Kolkata] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/API/user_role/create.php on line 4
+[30-May-2024 11:55:32 Asia/Kolkata] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/yuglogix/medelite.yuglogix.com/API/user_role/create.php on line 4
+[30-May-2024 11:55:32 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/create.php on line 16
+[30-May-2024 11:55:32 Asia/Kolkata] PHP Notice:  Undefined variable: conn in /home/yuglogix/medelite.yuglogix.com/API/user_role/create.php on line 17
+[30-May-2024 11:55:32 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Class 'Carbon\Carbon' not found in /home/yuglogix/medelite.yuglogix.com/helper/functions.php:40
+Stack trace:
+#0 /home/yuglogix/medelite.yuglogix.com/API/user_role/create.php(17): checkToken(NULL, '63792b090a1a73c...')
+#1 {main}
+  thrown in /home/yuglogix/medelite.yuglogix.com/helper/functions.php on line 40
+[30-May-2024 11:57:17 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/create.php on line 17
+[30-May-2024 11:58:23 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/create.php on line 17
+[30-May-2024 12:22:07 Asia/Kolkata] PHP Warning:  include(../task.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 4
+[30-May-2024 12:22:07 Asia/Kolkata] PHP Warning:  include(): Failed opening '../task.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 4
+[30-May-2024 12:25:43 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 25
+[30-May-2024 12:25:43 Asia/Kolkata] PHP Notice:  Undefined variable: message in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 38
+[30-May-2024 12:26:57 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 25
+[30-May-2024 12:26:57 Asia/Kolkata] PHP Notice:  Undefined variable: message in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 38
+[30-May-2024 12:30:38 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 25
+[30-May-2024 12:30:38 Asia/Kolkata] PHP Notice:  Undefined variable: message in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 38
+[30-May-2024 12:36:37 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 25
+[30-May-2024 12:36:37 Asia/Kolkata] PHP Notice:  Undefined variable: message in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 38
+[30-May-2024 12:43:15 Asia/Kolkata] PHP Notice:  Undefined index: id in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 44
+[30-May-2024 12:43:15 Asia/Kolkata] PHP Notice:  Undefined index: id in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 46
+[30-May-2024 12:44:32 Asia/Kolkata] PHP Notice:  Undefined index: id in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 44
+[30-May-2024 12:44:32 Asia/Kolkata] PHP Notice:  Undefined index: id in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 46
+[30-May-2024 12:45:58 Asia/Kolkata] GET data: Array
+(
+)
+
+[30-May-2024 12:51:51 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 12:52:22 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 12:52:39 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 12:53:00 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 12:53:17 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 12:53:31 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 12:54:13 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 12:59:51 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 13:00:14 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 13:01:56 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 13:02:26 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 13:21:22 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/API/user_role/delete.php on line 45
+[30-May-2024 13:21:27 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/API/user_role/delete.php on line 45
+[30-May-2024 13:21:34 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/API/user_role/delete.php on line 45
+[30-May-2024 13:21:42 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/API/user_role/delete.php on line 45
+[30-May-2024 13:21:47 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/API/user_role/delete.php on line 45
+[30-May-2024 13:21:55 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 13:23:37 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 13:23:50 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/API/user_role/delete.php on line 45
+[30-May-2024 13:24:10 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/API/user_role/delete.php on line 45
+[30-May-2024 13:27:59 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/API/user_role/delete.php on line 45
+[30-May-2024 13:57:09 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 14:03:41 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 14:04:17 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 14:04:22 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 14:06:20 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 14:06:33 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 14:06:34 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/update.php on line 32
+[30-May-2024 14:06:34 Asia/Kolkata] PHP Notice:  Undefined index: id in /home/yuglogix/medelite.yuglogix.com/API/user_role/update.php on line 62
+[30-May-2024 14:10:07 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 14:13:08 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 14:13:40 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 14:14:40 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 14:17:08 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 14:17:14 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 14:19:09 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 14:23:56 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 14:24:03 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 16:23:43 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 16:23:57 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 16:33:10 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 16:54:36 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 16:55:28 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 16:57:27 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 16:59:07 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 17:03:19 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 17:03:27 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 17:03:58 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 17:04:38 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 17:04:59 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 17:05:42 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 17:07:49 Asia/Kolkata] PHP Notice:  Undefined index: Apitoken in /home/yuglogix/medelite.yuglogix.com/API/user_role/detail.php on line 30
+[30-May-2024 17:18:59 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/API/user_role/delete.php on line 45
+[30-May-2024 17:23:35 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/API/user_role/delete.php on line 45
+[30-May-2024 17:24:59 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/API/user_role/delete.php on line 45
+[30-May-2024 17:26:00 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/API/user_role/delete.php on line 45
+[30-May-2024 17:26:17 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/API/user_role/delete.php on line 45
+[30-May-2024 17:33:35 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/API/user_role/delete.php on line 45
+[31-May-2024 14:51:40 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/API/user_role/delete.php on line 45
+[31-May-2024 14:51:50 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/API/user_role/delete.php on line 45
+[31-May-2024 14:56:14 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/API/user_role/delete.php on line 45
+[31-May-2024 14:59:20 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/API/user_role/delete.php on line 45
+[17-Jun-2024 18:00:22 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/API/user_role/delete.php on line 45
+[17-Jun-2024 18:00:28 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/API/user_role/delete.php on line 45
+[19-Jun-2024 10:28:41 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/API/user_role/delete.php on line 45
+[19-Jun-2024 10:29:00 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/API/user_role/delete.php on line 45
+[19-Jun-2024 10:41:39 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/API/user_role/delete.php on line 45
+[19-Jun-2024 10:47:49 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/API/user_role/delete.php on line 45
+[19-Jun-2024 11:20:59 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/API/user_role/delete.php on line 45
+[19-Jun-2024 11:27:45 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/API/user_role/delete.php on line 45
+[19-Jun-2024 11:33:35 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/API/user_role/delete.php on line 45

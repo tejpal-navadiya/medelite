@@ -1,0 +1,151 @@
+    body
+    {
+        overflow: hidden;
+    }
+    .custom-login-box
+    {
+        background-image: url('../img/login-page-bg.png');
+        height: 100vh;
+        background-size: cover;
+    }
+    .custom-login-box .custom-login-card
+    {
+        padding: 23% 23% 0 23%;
+    }
+    .custom-login-box .custom-login-card .cutom-login-icon-right
+    {
+        text-align: center;011F3D
+    }
+    .custom-login-box .custom-login-card .cutom-login-icon-right img
+    {
+        height: 125px;
+    }
+    .custom-login-box .custom-login-card form
+    {
+        margin-top: 25px;
+    }
+    .custom-login-box .custom-login-card .form-control
+    {
+        background: transparent!important;
+        color: #011F3D!important;
+        border-left: 0;
+        height: 50px;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .custom-login-box .custom-login-card .input-group:not(.has-validation)>.input-group-append:not(:last-child)>.input-group-text
+    {
+        background: transparent;
+        color: #011F3D;
+        border-right: 0;
+        padding: 0px 18px 0 18px;
+        border-left: 10px solid #011F3D;
+        border-top: 1px solid #011F3D;
+        border-bottom: 1px solid #011F3D;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;   
+    }
+    .text-light
+    {
+        color:#011F3D!important;
+    }
+    .custom-login-box .cutom-login-light-button
+    {
+        background-color: #fff!important;
+        color: #051922;
+        padding: 8px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+
+    .custom-login-left-wrapper
+    {
+        height:100vh;
+        background-color: #011F3D;
+        overflow: hidden;
+        
+    }
+    .custom-login-left-wrapper .custom-login-left-card
+    {
+        padding: 25% 23% 0 23%;
+        text-align: center;
+    }
+    .custom-login-left-wrapper .custom-login-left-card *
+    {
+        color: #fff;
+    }
+    .custom-login-left-wrapper .custom-login-left-card .head-text
+    {
+        font-weight: 600;
+        font-size: 35px;
+    }
+    .custom-login-left-wrapper .cutom-login-icon-left 
+    {
+        margin-top: 25px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .custom-login-left-wrapper .cutom-login-icon-left img
+    {
+        height: 200px;
+        
+    }
+    .custom-login-left-wrapper .custom-login-left-text
+    {
+        text-align: center;
+    }
+    .no-padding
+    {
+        padding: 0!important;
+    }
+    @media screen and (min-width:768px) and (max-width:970px) 
+    {
+        .custom-login-box .custom-login-card
+        {
+            padding: 35% 10% 0 10%;
+        }    
+        .custom-login-left-wrapper .custom-login-left-card
+        {
+            padding: 35% 8% 0 8%;
+            text-align: center;
+        }
+        .custom-login-left-wrapper .cutom-login-icon-left img
+        {
+            height: 125px;
+        }
+        .custom-login-box .custom-login-card .cutom-login-icon-right img
+        {
+            height: 90px;
+        }
+    }
+    @media screen and (max-width:767px)
+    {
+        body
+        {
+            overflow: auto;
+        }
+        .custom-login-box .custom-login-card
+        {
+            padding: 15% 10% 15% 10%;
+        }    
+        .custom-login-left-wrapper .custom-login-left-card
+        {
+            padding: 15% 10% 15% 10%;
+            text-align: center;
+        }
+        .custom-login-left-wrapper .cutom-login-icon-left img
+        {
+            height: 100px;
+        }
+        .custom-login-box .custom-login-card .cutom-login-icon-right img
+        {
+            height: 75px;
+        }   
+        .custom-login-box,.custom-login-left-wrapper
+        {
+            height:unset;
+        }    
+    }
+    

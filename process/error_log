@@ -1,0 +1,1014 @@
+[13-May-2024 10:18:37 Asia/Kolkata] PHP Notice:  Undefined variable: conn in /home/yuglogix/medelite.yuglogix.com/process/action_role_access.php on line 9
+[13-May-2024 10:18:37 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/yuglogix/medelite.yuglogix.com/process/action_role_access.php on line 9
+[13-May-2024 10:18:37 Asia/Kolkata] PHP Notice:  Undefined index: medelite_admin in /home/yuglogix/medelite.yuglogix.com/process/action_role_access.php on line 12
+[13-May-2024 10:18:37 Asia/Kolkata] PHP Notice:  Undefined variable: conn in /home/yuglogix/medelite.yuglogix.com/process/action_role_access.php on line 18
+[13-May-2024 10:18:37 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/yuglogix/medelite.yuglogix.com/process/action_role_access.php on line 18
+[13-May-2024 10:18:37 Asia/Kolkata] PHP Notice:  Undefined variable: conn in /home/yuglogix/medelite.yuglogix.com/process/action_role_access.php on line 21
+[13-May-2024 10:18:37 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/yuglogix/medelite.yuglogix.com/process/action_role_access.php on line 21
+[13-May-2024 10:18:37 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/yuglogix/medelite.yuglogix.com/process/action_role_access.php on line 22
+[13-May-2024 10:36:51 Asia/Kolkata] PHP Notice:  Undefined variable: conn in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 9
+[13-May-2024 10:36:51 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 9
+[13-May-2024 10:36:51 Asia/Kolkata] PHP Notice:  Undefined index: medelite in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[13-May-2024 10:36:51 Asia/Kolkata] PHP Notice:  Undefined variable: conn in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 62
+[13-May-2024 10:36:51 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 62
+[13-May-2024 10:36:51 Asia/Kolkata] PHP Notice:  Undefined variable: conn in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 62
+[13-May-2024 10:36:51 Asia/Kolkata] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 62
+[13-May-2024 10:42:34 Asia/Kolkata] PHP Warning:  include(../../config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 5
+[13-May-2024 10:42:34 Asia/Kolkata] PHP Warning:  include(../../config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 5
+[13-May-2024 10:42:34 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 5
+[13-May-2024 10:42:34 Asia/Kolkata] PHP Notice:  Undefined variable: conn in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 9
+[13-May-2024 10:42:34 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 9
+[13-May-2024 10:42:34 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[13-May-2024 10:42:34 Asia/Kolkata] PHP Notice:  Undefined variable: conn in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 62
+[13-May-2024 10:42:34 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 62
+[13-May-2024 10:42:34 Asia/Kolkata] PHP Notice:  Undefined variable: conn in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 62
+[13-May-2024 10:42:34 Asia/Kolkata] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 62
+[13-May-2024 10:42:53 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[13-May-2024 10:44:57 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[13-May-2024 14:53:34 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[13-May-2024 14:54:29 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[13-May-2024 14:56:43 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[13-May-2024 14:59:19 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[13-May-2024 15:00:08 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[13-May-2024 15:01:50 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_role_access.php on line 12
+[13-May-2024 15:52:14 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[13-May-2024 18:44:24 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[13-May-2024 18:44:33 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[13-May-2024 18:44:35 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_role_access.php on line 12
+[13-May-2024 18:45:14 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[13-May-2024 18:45:22 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[13-May-2024 18:47:01 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[13-May-2024 18:47:55 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_role_access.php on line 12
+[13-May-2024 19:02:19 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[13-May-2024 19:02:29 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[14-May-2024 14:33:25 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_role_access.php on line 12
+[14-May-2024 19:18:50 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_role_access.php on line 12
+[15-May-2024 12:44:46 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[15-May-2024 12:44:52 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[15-May-2024 12:44:58 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[15-May-2024 12:52:32 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[15-May-2024 13:17:30 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[28-May-2024 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[28-May-2024 19:31:17 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[28-May-2024 19:31:17 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[30-May-2024 11:01:54 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[30-May-2024 11:01:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[30-May-2024 11:01:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[30-May-2024 11:05:24 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[30-May-2024 11:05:24 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[30-May-2024 11:05:24 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[30-May-2024 11:13:08 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[30-May-2024 11:13:08 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[30-May-2024 11:13:08 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[30-May-2024 11:13:15 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[30-May-2024 11:13:15 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[30-May-2024 11:13:15 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_user_role.php on line 20
+[18-Jun-2024 16:18:38 Asia/Kolkata] PHP Notice:  Undefined index: name in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 9
+[18-Jun-2024 16:18:38 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 20
+[18-Jun-2024 16:18:38 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 20
+[18-Jun-2024 16:18:38 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 20
+[18-Jun-2024 16:18:38 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:18:38 Asia/Kolkata] PHP Notice:  Undefined variable: form_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:18:38 Asia/Kolkata] PHP Notice:  Undefined variable: cur_institute_type in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:18:38 Asia/Kolkata] PHP Notice:  Undefined variable: cur_start_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:18:38 Asia/Kolkata] PHP Notice:  Undefined variable: cur_end_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:18:38 Asia/Kolkata] PHP Notice:  Undefined variable: cur_institute_name in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:18:38 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_line_1 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:18:38 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_line_2 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:18:38 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_city in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:18:38 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_state in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:18:38 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_country in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:18:38 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_zipcode in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:18:38 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:18:38 Asia/Kolkata] PHP Notice:  Undefined variable: cur_major in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:18:38 Asia/Kolkata] PHP Notice:  Undefined variable: cur_program_completed in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:18:38 Asia/Kolkata] PHP Notice:  Undefined variable: cur_graduation_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:22:22 Asia/Kolkata] PHP Notice:  Undefined index: name in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 9
+[18-Jun-2024 16:22:22 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 20
+[18-Jun-2024 16:22:22 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 20
+[18-Jun-2024 16:22:22 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 20
+[18-Jun-2024 16:22:22 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:22:22 Asia/Kolkata] PHP Notice:  Undefined variable: form_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:22:22 Asia/Kolkata] PHP Notice:  Undefined variable: cur_institute_type in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:22:22 Asia/Kolkata] PHP Notice:  Undefined variable: cur_start_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:22:22 Asia/Kolkata] PHP Notice:  Undefined variable: cur_end_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:22:22 Asia/Kolkata] PHP Notice:  Undefined variable: cur_institute_name in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:22:22 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_line_1 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:22:22 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_line_2 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:22:22 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_city in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:22:22 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_state in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:22:22 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_country in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:22:22 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_zipcode in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:22:22 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:22:22 Asia/Kolkata] PHP Notice:  Undefined variable: cur_major in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:22:22 Asia/Kolkata] PHP Notice:  Undefined variable: cur_program_completed in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:22:22 Asia/Kolkata] PHP Notice:  Undefined variable: cur_graduation_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 78
+[18-Jun-2024 16:30:42 Asia/Kolkata] PHP Notice:  Undefined index: name in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 9
+[18-Jun-2024 16:30:42 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 20
+[18-Jun-2024 16:30:42 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 20
+[18-Jun-2024 16:30:42 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 20
+[18-Jun-2024 16:31:52 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 20
+[18-Jun-2024 16:31:52 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 20
+[18-Jun-2024 16:31:52 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 20
+[18-Jun-2024 16:32:17 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 22
+[18-Jun-2024 16:45:32 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:45:32 Asia/Kolkata] PHP Notice:  Undefined variable: form_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:45:32 Asia/Kolkata] PHP Notice:  Undefined variable: cur_institute_type in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:45:32 Asia/Kolkata] PHP Notice:  Undefined variable: cur_start_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:45:32 Asia/Kolkata] PHP Notice:  Undefined variable: cur_end_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:45:32 Asia/Kolkata] PHP Notice:  Undefined variable: cur_institute_name in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:45:32 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_line_1 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:45:32 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_line_2 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:45:32 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_city in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:45:32 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_state in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:45:32 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_country in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:45:32 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_zipcode in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:45:32 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:45:32 Asia/Kolkata] PHP Notice:  Undefined variable: cur_major in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:45:32 Asia/Kolkata] PHP Notice:  Undefined variable: cur_program_completed in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:45:32 Asia/Kolkata] PHP Notice:  Undefined variable: cur_graduation_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:45:32 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:46:41 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:46:41 Asia/Kolkata] PHP Notice:  Undefined variable: form_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:46:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_institute_type in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:46:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_start_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:46:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_end_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:46:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_institute_name in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:46:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_line_1 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:46:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_line_2 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:46:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_city in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:46:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_state in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:46:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_country in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:46:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_zipcode in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:46:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:46:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_major in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:46:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_program_completed in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:46:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_graduation_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:46:41 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 16:51:39 Asia/Kolkata] PHP Warning:  include(../../config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 3
+[18-Jun-2024 16:51:39 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 3
+[18-Jun-2024 16:51:39 Asia/Kolkata] PHP Warning:  include(../../helper/functions.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 5
+[18-Jun-2024 16:51:39 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../helper/functions.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 5
+[18-Jun-2024 16:51:39 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function apiResponse() in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php:153
+Stack trace:
+#0 {main}
+  thrown in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 153
+[18-Jun-2024 16:52:59 Asia/Kolkata] PHP Warning:  include(../../config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 3
+[18-Jun-2024 16:52:59 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 3
+[18-Jun-2024 16:52:59 Asia/Kolkata] PHP Warning:  include(../../helper/functions.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 5
+[18-Jun-2024 16:52:59 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../helper/functions.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 5
+[18-Jun-2024 16:52:59 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function apiResponse() in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php:153
+Stack trace:
+#0 {main}
+  thrown in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 153
+[18-Jun-2024 16:54:14 Asia/Kolkata] PHP Warning:  include(../../config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 3
+[18-Jun-2024 16:54:14 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 3
+[18-Jun-2024 16:54:14 Asia/Kolkata] PHP Warning:  include(../../helper/functions.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 5
+[18-Jun-2024 16:54:14 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../helper/functions.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 5
+[18-Jun-2024 16:54:14 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function apiResponse() in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php:153
+Stack trace:
+#0 {main}
+  thrown in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 153
+[18-Jun-2024 17:13:59 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:13:59 Asia/Kolkata] PHP Notice:  Undefined variable: form_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:13:59 Asia/Kolkata] PHP Notice:  Undefined variable: cur_institute_type in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:13:59 Asia/Kolkata] PHP Notice:  Undefined variable: cur_start_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:13:59 Asia/Kolkata] PHP Notice:  Undefined variable: cur_end_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:13:59 Asia/Kolkata] PHP Notice:  Undefined variable: cur_institute_name in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:13:59 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_line_1 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:13:59 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_line_2 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:13:59 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_city in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:13:59 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_state in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:13:59 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_country in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:13:59 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_zipcode in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:13:59 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:13:59 Asia/Kolkata] PHP Notice:  Undefined variable: cur_major in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:13:59 Asia/Kolkata] PHP Notice:  Undefined variable: cur_program_completed in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:13:59 Asia/Kolkata] PHP Notice:  Undefined variable: cur_graduation_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:13:59 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:17:25 Asia/Kolkata] PHP Notice:  Undefined variable: cur_institute_type in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[18-Jun-2024 17:17:25 Asia/Kolkata] PHP Notice:  Undefined variable: cur_start_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[18-Jun-2024 17:17:25 Asia/Kolkata] PHP Notice:  Undefined variable: cur_end_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[18-Jun-2024 17:17:25 Asia/Kolkata] PHP Notice:  Undefined variable: cur_institute_name in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[18-Jun-2024 17:17:25 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_line_1 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[18-Jun-2024 17:17:25 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_line_2 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[18-Jun-2024 17:17:25 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_city in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[18-Jun-2024 17:17:25 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_state in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[18-Jun-2024 17:17:25 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_country in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[18-Jun-2024 17:17:25 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_zipcode in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[18-Jun-2024 17:17:25 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[18-Jun-2024 17:17:25 Asia/Kolkata] PHP Notice:  Undefined variable: cur_major in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[18-Jun-2024 17:17:25 Asia/Kolkata] PHP Notice:  Undefined variable: cur_program_completed in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[18-Jun-2024 17:17:25 Asia/Kolkata] PHP Notice:  Undefined variable: cur_graduation_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[18-Jun-2024 17:17:25 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[18-Jun-2024 17:20:01 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:20:01 Asia/Kolkata] PHP Notice:  Undefined variable: form_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:20:01 Asia/Kolkata] PHP Notice:  Undefined variable: cur_institute_type in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:20:01 Asia/Kolkata] PHP Notice:  Undefined variable: cur_start_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:20:01 Asia/Kolkata] PHP Notice:  Undefined variable: cur_end_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:20:01 Asia/Kolkata] PHP Notice:  Undefined variable: cur_institute_name in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:20:01 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_line_1 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:20:01 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_line_2 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:20:01 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_city in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:20:01 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_state in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:20:01 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_country in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:20:01 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_zipcode in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:20:01 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:20:01 Asia/Kolkata] PHP Notice:  Undefined variable: cur_major in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:20:01 Asia/Kolkata] PHP Notice:  Undefined variable: cur_program_completed in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:20:01 Asia/Kolkata] PHP Notice:  Undefined variable: cur_graduation_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[18-Jun-2024 17:20:01 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 09:55:17 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 09:55:17 Asia/Kolkata] PHP Notice:  Undefined variable: form_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 09:55:17 Asia/Kolkata] PHP Notice:  Undefined variable: cur_institute_type in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 09:55:17 Asia/Kolkata] PHP Notice:  Undefined variable: cur_start_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 09:55:17 Asia/Kolkata] PHP Notice:  Undefined variable: cur_end_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 09:55:17 Asia/Kolkata] PHP Notice:  Undefined variable: cur_institute_name in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 09:55:17 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_line_1 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 09:55:17 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_line_2 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 09:55:17 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_city in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 09:55:17 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_state in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 09:55:17 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_country in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 09:55:17 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_zipcode in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 09:55:17 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 09:55:17 Asia/Kolkata] PHP Notice:  Undefined variable: cur_major in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 09:55:17 Asia/Kolkata] PHP Notice:  Undefined variable: cur_program_completed in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 09:55:17 Asia/Kolkata] PHP Notice:  Undefined variable: cur_graduation_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 09:55:17 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 09:59:26 Asia/Kolkata] PHP Warning:  include(../../config.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 3
+[19-Jun-2024 09:59:26 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 3
+[19-Jun-2024 09:59:26 Asia/Kolkata] PHP Warning:  include(../../helper/functions.php): failed to open stream: No such file or directory in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 5
+[19-Jun-2024 09:59:26 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../helper/functions.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 5
+[19-Jun-2024 09:59:26 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function apiResponse() in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php:153
+Stack trace:
+#0 {main}
+  thrown in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 153
+[19-Jun-2024 10:01:32 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:01:32 Asia/Kolkata] PHP Notice:  Undefined variable: form_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:01:32 Asia/Kolkata] PHP Notice:  Undefined variable: cur_institute_type in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:01:32 Asia/Kolkata] PHP Notice:  Undefined variable: cur_start_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:01:32 Asia/Kolkata] PHP Notice:  Undefined variable: cur_end_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:01:32 Asia/Kolkata] PHP Notice:  Undefined variable: cur_institute_name in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:01:32 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_line_1 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:01:32 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_line_2 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:01:32 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_city in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:01:32 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_state in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:01:32 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_country in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:01:32 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_zipcode in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:01:32 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:01:32 Asia/Kolkata] PHP Notice:  Undefined variable: cur_major in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:01:32 Asia/Kolkata] PHP Notice:  Undefined variable: cur_program_completed in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:01:32 Asia/Kolkata] PHP Notice:  Undefined variable: cur_graduation_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:01:32 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:03:40 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:03:40 Asia/Kolkata] PHP Notice:  Undefined variable: form_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:03:40 Asia/Kolkata] PHP Notice:  Undefined variable: cur_institute_type in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:03:40 Asia/Kolkata] PHP Notice:  Undefined variable: cur_start_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:03:40 Asia/Kolkata] PHP Notice:  Undefined variable: cur_end_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:03:40 Asia/Kolkata] PHP Notice:  Undefined variable: cur_institute_name in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:03:40 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_line_1 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:03:40 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_line_2 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:03:40 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_city in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:03:40 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_state in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:03:40 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_country in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:03:40 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_zipcode in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:03:40 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:03:40 Asia/Kolkata] PHP Notice:  Undefined variable: cur_major in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:03:40 Asia/Kolkata] PHP Notice:  Undefined variable: cur_program_completed in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:03:40 Asia/Kolkata] PHP Notice:  Undefined variable: cur_graduation_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 10:03:40 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 70
+[19-Jun-2024 17:35:53 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 17:35:53 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 17:35:53 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 17:36:01 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 17:36:01 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 17:36:01 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 17:38:44 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_ethnicity_list.php on line 14
+[19-Jun-2024 17:38:44 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_ethnicity_list.php on line 14
+[19-Jun-2024 17:38:44 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_ethnicity_list.php on line 14
+[19-Jun-2024 17:38:51 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_ethnicity_list.php on line 14
+[19-Jun-2024 17:38:51 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_ethnicity_list.php on line 14
+[19-Jun-2024 17:38:51 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_ethnicity_list.php on line 14
+[19-Jun-2024 17:40:41 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_institution_type_list.php on line 14
+[19-Jun-2024 17:40:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_institution_type_list.php on line 14
+[19-Jun-2024 17:40:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_institution_type_list.php on line 14
+[19-Jun-2024 17:40:45 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_institution_type_list.php on line 14
+[19-Jun-2024 17:40:45 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_institution_type_list.php on line 14
+[19-Jun-2024 17:40:45 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_institution_type_list.php on line 14
+[19-Jun-2024 17:42:29 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_degree_list.php on line 14
+[19-Jun-2024 17:42:29 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_degree_list.php on line 14
+[19-Jun-2024 17:42:29 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_degree_list.php on line 14
+[19-Jun-2024 17:42:33 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_degree_list.php on line 14
+[19-Jun-2024 17:42:33 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_degree_list.php on line 14
+[19-Jun-2024 17:42:33 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_degree_list.php on line 14
+[19-Jun-2024 17:42:46 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 17:42:46 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 17:42:46 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 17:43:16 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 17:43:16 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 17:43:16 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 17:43:28 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_ethnicity_list.php on line 14
+[19-Jun-2024 17:43:28 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_ethnicity_list.php on line 14
+[19-Jun-2024 17:43:28 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_ethnicity_list.php on line 14
+[19-Jun-2024 17:43:50 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 17:43:50 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 17:43:50 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 17:43:55 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 17:43:55 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 17:43:55 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 17:44:19 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_exam_type_list.php on line 14
+[19-Jun-2024 17:44:19 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_exam_type_list.php on line 14
+[19-Jun-2024 17:44:19 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_exam_type_list.php on line 14
+[19-Jun-2024 17:44:24 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_exam_type_list.php on line 14
+[19-Jun-2024 17:44:24 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_exam_type_list.php on line 14
+[19-Jun-2024 17:44:24 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_exam_type_list.php on line 14
+[19-Jun-2024 17:47:20 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 17:47:20 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 17:47:20 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 17:47:24 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 17:47:24 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 17:47:24 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 17:51:34 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_focus_list.php on line 14
+[19-Jun-2024 17:51:34 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_focus_list.php on line 14
+[19-Jun-2024 17:51:34 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_focus_list.php on line 14
+[19-Jun-2024 17:51:55 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_focus_list.php on line 14
+[19-Jun-2024 17:51:55 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_focus_list.php on line 14
+[19-Jun-2024 17:51:55 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_focus_list.php on line 14
+[19-Jun-2024 17:55:26 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_focus_list.php on line 14
+[19-Jun-2024 17:55:26 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_focus_list.php on line 14
+[19-Jun-2024 17:55:26 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_focus_list.php on line 14
+[19-Jun-2024 17:56:13 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 17:56:13 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 17:56:13 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 17:56:14 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_focus_list.php on line 14
+[19-Jun-2024 17:56:14 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_focus_list.php on line 14
+[19-Jun-2024 17:56:14 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_focus_list.php on line 14
+[19-Jun-2024 17:56:25 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 17:56:25 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 17:56:25 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 17:57:43 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_cert_status_list.php on line 14
+[19-Jun-2024 17:57:43 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_cert_status_list.php on line 14
+[19-Jun-2024 17:57:43 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_cert_status_list.php on line 14
+[19-Jun-2024 17:57:47 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_cert_status_list.php on line 14
+[19-Jun-2024 17:57:47 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_cert_status_list.php on line 14
+[19-Jun-2024 17:57:47 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_cert_status_list.php on line 14
+[19-Jun-2024 17:58:52 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 17:58:52 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 17:58:52 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 17:59:11 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_moc_occ_status_list.php on line 14
+[19-Jun-2024 17:59:11 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_moc_occ_status_list.php on line 14
+[19-Jun-2024 17:59:11 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_moc_occ_status_list.php on line 14
+[19-Jun-2024 17:59:15 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_moc_occ_status_list.php on line 14
+[19-Jun-2024 17:59:15 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_moc_occ_status_list.php on line 14
+[19-Jun-2024 17:59:15 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_moc_occ_status_list.php on line 14
+[19-Jun-2024 18:00:17 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_practice_facility_type_list.php on line 14
+[19-Jun-2024 18:00:17 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_practice_facility_type_list.php on line 14
+[19-Jun-2024 18:00:17 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_practice_facility_type_list.php on line 14
+[19-Jun-2024 18:00:20 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:00:20 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:00:20 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:00:21 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_practice_facility_type_list.php on line 14
+[19-Jun-2024 18:00:21 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_practice_facility_type_list.php on line 14
+[19-Jun-2024 18:00:21 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_practice_facility_type_list.php on line 14
+[19-Jun-2024 18:00:33 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:00:33 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:00:33 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:00:51 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:00:51 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:00:51 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:01:25 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_license_type_list.php on line 14
+[19-Jun-2024 18:01:25 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_license_type_list.php on line 14
+[19-Jun-2024 18:01:25 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_license_type_list.php on line 14
+[19-Jun-2024 18:01:30 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_license_type_list.php on line 14
+[19-Jun-2024 18:01:30 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_license_type_list.php on line 14
+[19-Jun-2024 18:01:30 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_license_type_list.php on line 14
+[19-Jun-2024 18:02:36 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_website_list.php on line 14
+[19-Jun-2024 18:02:36 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_website_list.php on line 14
+[19-Jun-2024 18:02:36 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_website_list.php on line 14
+[19-Jun-2024 18:02:41 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_website_list.php on line 14
+[19-Jun-2024 18:02:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_website_list.php on line 14
+[19-Jun-2024 18:02:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_website_list.php on line 14
+[19-Jun-2024 18:03:41 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_request_type_list.php on line 14
+[19-Jun-2024 18:03:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_request_type_list.php on line 14
+[19-Jun-2024 18:03:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_request_type_list.php on line 14
+[19-Jun-2024 18:03:44 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_request_type_list.php on line 14
+[19-Jun-2024 18:03:44 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_request_type_list.php on line 14
+[19-Jun-2024 18:03:44 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_request_type_list.php on line 14
+[19-Jun-2024 18:04:13 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_ethnicity_list.php on line 14
+[19-Jun-2024 18:04:13 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_ethnicity_list.php on line 14
+[19-Jun-2024 18:04:13 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_ethnicity_list.php on line 14
+[19-Jun-2024 18:06:04 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[19-Jun-2024 18:06:04 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[19-Jun-2024 18:06:04 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[19-Jun-2024 18:06:11 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[19-Jun-2024 18:06:11 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[19-Jun-2024 18:06:11 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[19-Jun-2024 18:06:47 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[19-Jun-2024 18:06:47 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[19-Jun-2024 18:06:47 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[19-Jun-2024 18:06:54 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[19-Jun-2024 18:06:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[19-Jun-2024 18:06:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[19-Jun-2024 18:08:05 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_ethnicity_list.php on line 14
+[19-Jun-2024 18:08:05 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_ethnicity_list.php on line 14
+[19-Jun-2024 18:08:05 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_ethnicity_list.php on line 14
+[19-Jun-2024 18:08:19 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_ethnicity_list.php on line 14
+[19-Jun-2024 18:08:19 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_ethnicity_list.php on line 14
+[19-Jun-2024 18:08:19 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_ethnicity_list.php on line 14
+[19-Jun-2024 18:08:51 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_ethnicity_list.php on line 14
+[19-Jun-2024 18:08:51 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_ethnicity_list.php on line 14
+[19-Jun-2024 18:08:51 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_ethnicity_list.php on line 14
+[19-Jun-2024 18:09:08 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_ethnicity_list.php on line 14
+[19-Jun-2024 18:09:08 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_ethnicity_list.php on line 14
+[19-Jun-2024 18:09:08 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_ethnicity_list.php on line 14
+[19-Jun-2024 18:09:28 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_ethnicity_list.php on line 14
+[19-Jun-2024 18:09:28 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_ethnicity_list.php on line 14
+[19-Jun-2024 18:09:28 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_ethnicity_list.php on line 14
+[19-Jun-2024 18:12:50 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_institution_type_list.php on line 14
+[19-Jun-2024 18:12:50 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_institution_type_list.php on line 14
+[19-Jun-2024 18:12:50 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_institution_type_list.php on line 14
+[19-Jun-2024 18:13:39 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_institution_type_list.php on line 14
+[19-Jun-2024 18:13:39 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_institution_type_list.php on line 14
+[19-Jun-2024 18:13:39 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_institution_type_list.php on line 14
+[19-Jun-2024 18:14:15 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_institution_type_list.php on line 14
+[19-Jun-2024 18:14:15 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_institution_type_list.php on line 14
+[19-Jun-2024 18:14:15 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_institution_type_list.php on line 14
+[19-Jun-2024 18:19:18 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_degree_list.php on line 14
+[19-Jun-2024 18:19:18 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_degree_list.php on line 14
+[19-Jun-2024 18:19:18 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_degree_list.php on line 14
+[19-Jun-2024 18:19:29 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_degree_list.php on line 14
+[19-Jun-2024 18:19:29 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_degree_list.php on line 14
+[19-Jun-2024 18:19:29 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_degree_list.php on line 14
+[19-Jun-2024 18:19:40 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_degree_list.php on line 14
+[19-Jun-2024 18:19:40 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_degree_list.php on line 14
+[19-Jun-2024 18:19:40 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_degree_list.php on line 14
+[19-Jun-2024 18:20:01 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_degree_list.php on line 14
+[19-Jun-2024 18:20:01 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_degree_list.php on line 14
+[19-Jun-2024 18:20:01 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_degree_list.php on line 14
+[19-Jun-2024 18:21:07 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_degree_list.php on line 14
+[19-Jun-2024 18:21:07 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_degree_list.php on line 14
+[19-Jun-2024 18:21:07 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_degree_list.php on line 14
+[19-Jun-2024 18:22:41 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_exam_type_list.php on line 14
+[19-Jun-2024 18:22:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_exam_type_list.php on line 14
+[19-Jun-2024 18:22:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_exam_type_list.php on line 14
+[19-Jun-2024 18:22:58 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_exam_type_list.php on line 14
+[19-Jun-2024 18:22:58 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_exam_type_list.php on line 14
+[19-Jun-2024 18:22:58 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_exam_type_list.php on line 14
+[19-Jun-2024 18:23:31 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_exam_type_list.php on line 14
+[19-Jun-2024 18:23:31 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_exam_type_list.php on line 14
+[19-Jun-2024 18:23:31 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_exam_type_list.php on line 14
+[19-Jun-2024 18:26:53 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:26:53 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:26:53 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:27:02 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:27:02 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:27:02 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:27:14 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_exam_type_list.php on line 14
+[19-Jun-2024 18:27:14 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_exam_type_list.php on line 14
+[19-Jun-2024 18:27:14 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_exam_type_list.php on line 14
+[19-Jun-2024 18:27:45 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:27:45 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:27:45 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:28:32 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:28:32 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:28:32 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:28:56 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:28:56 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:28:56 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:29:44 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:29:44 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:29:44 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:30:30 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:30:30 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:30:30 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:30:33 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:30:33 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:30:33 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:30:34 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:30:34 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:30:34 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:30:34 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:30:34 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:30:34 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:30:34 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:30:34 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:30:34 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:30:35 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:30:35 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:30:35 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:30:35 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:30:35 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:30:35 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_provider_type_list.php on line 14
+[19-Jun-2024 18:30:49 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 18:30:49 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 18:30:49 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 18:31:18 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 18:31:18 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 18:31:18 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 18:34:54 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 18:34:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 18:34:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 18:35:03 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 18:35:03 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 18:35:03 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 18:35:10 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 18:35:10 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 18:35:10 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 18:35:35 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 18:35:35 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 18:35:35 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 18:36:20 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 18:36:20 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 18:36:20 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 18:37:00 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 18:37:00 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 18:37:00 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_speciality_subspeciality_list.php on line 14
+[19-Jun-2024 18:41:34 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_focus_list.php on line 14
+[19-Jun-2024 18:41:34 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_focus_list.php on line 14
+[19-Jun-2024 18:41:34 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_focus_list.php on line 14
+[19-Jun-2024 18:41:48 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_focus_list.php on line 14
+[19-Jun-2024 18:41:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_focus_list.php on line 14
+[19-Jun-2024 18:41:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_focus_list.php on line 14
+[20-Jun-2024 09:59:58 Asia/Kolkata] PHP Notice:  Undefined variable: cur_institute_type in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 35
+[20-Jun-2024 09:59:58 Asia/Kolkata] PHP Notice:  Undefined variable: cur_start_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 36
+[20-Jun-2024 09:59:58 Asia/Kolkata] PHP Notice:  Undefined variable: cur_end_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 37
+[20-Jun-2024 09:59:58 Asia/Kolkata] PHP Notice:  Undefined variable: cur_institute_name in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 38
+[20-Jun-2024 09:59:58 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_line_1 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 39
+[20-Jun-2024 09:59:58 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_line_2 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 40
+[20-Jun-2024 09:59:58 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_city in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 41
+[20-Jun-2024 09:59:58 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_state in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 42
+[20-Jun-2024 09:59:58 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_country in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 43
+[20-Jun-2024 09:59:58 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_zipcode in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 44
+[20-Jun-2024 09:59:58 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 45
+[20-Jun-2024 09:59:58 Asia/Kolkata] PHP Notice:  Undefined variable: cur_major in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 46
+[20-Jun-2024 09:59:58 Asia/Kolkata] PHP Notice:  Undefined variable: cur_program_completed in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 47
+[20-Jun-2024 09:59:58 Asia/Kolkata] PHP Notice:  Undefined variable: cur_graduation_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 48
+[20-Jun-2024 09:59:58 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 49
+[20-Jun-2024 10:14:36 Asia/Kolkata] PHP Notice:  Undefined variable: cur_institute_type in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 35
+[20-Jun-2024 10:14:36 Asia/Kolkata] PHP Notice:  Undefined variable: cur_start_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 36
+[20-Jun-2024 10:14:36 Asia/Kolkata] PHP Notice:  Undefined variable: cur_end_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 37
+[20-Jun-2024 10:14:36 Asia/Kolkata] PHP Notice:  Undefined variable: cur_institute_name in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 38
+[20-Jun-2024 10:14:36 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_line_1 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 39
+[20-Jun-2024 10:14:36 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_line_2 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 40
+[20-Jun-2024 10:14:36 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_city in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 41
+[20-Jun-2024 10:14:36 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_state in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 42
+[20-Jun-2024 10:14:36 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_country in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 43
+[20-Jun-2024 10:14:36 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_zipcode in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 44
+[20-Jun-2024 10:14:36 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 45
+[20-Jun-2024 10:14:36 Asia/Kolkata] PHP Notice:  Undefined variable: cur_major in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 46
+[20-Jun-2024 10:14:36 Asia/Kolkata] PHP Notice:  Undefined variable: cur_program_completed in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 47
+[20-Jun-2024 10:14:36 Asia/Kolkata] PHP Notice:  Undefined variable: cur_graduation_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 48
+[20-Jun-2024 10:14:36 Asia/Kolkata] PHP Notice:  Undefined variable: updated_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 49
+[20-Jun-2024 10:21:14 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:21:14 Asia/Kolkata] PHP Notice:  Undefined variable: form_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:21:14 Asia/Kolkata] PHP Notice:  Undefined variable: cur_institute_type in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:21:14 Asia/Kolkata] PHP Notice:  Undefined variable: cur_start_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:21:14 Asia/Kolkata] PHP Notice:  Undefined variable: cur_end_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:21:14 Asia/Kolkata] PHP Notice:  Undefined variable: cur_institute_name in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:21:14 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_line_1 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:21:14 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_line_2 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:21:14 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_city in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:21:14 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_state in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:21:14 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_country in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:21:14 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_zipcode in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:21:14 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:21:14 Asia/Kolkata] PHP Notice:  Undefined variable: cur_major in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:21:14 Asia/Kolkata] PHP Notice:  Undefined variable: cur_program_completed in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:21:14 Asia/Kolkata] PHP Notice:  Undefined variable: cur_graduation_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:21:14 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:22:09 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:22:09 Asia/Kolkata] PHP Notice:  Undefined variable: form_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:22:09 Asia/Kolkata] PHP Notice:  Undefined variable: cur_institute_type in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:22:09 Asia/Kolkata] PHP Notice:  Undefined variable: cur_start_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:22:09 Asia/Kolkata] PHP Notice:  Undefined variable: cur_end_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:22:09 Asia/Kolkata] PHP Notice:  Undefined variable: cur_institute_name in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:22:09 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_line_1 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:22:09 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_line_2 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:22:09 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_city in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:22:09 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_state in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:22:09 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_country in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:22:09 Asia/Kolkata] PHP Notice:  Undefined variable: cur_address_zipcode in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:22:09 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:22:09 Asia/Kolkata] PHP Notice:  Undefined variable: cur_major in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:22:09 Asia/Kolkata] PHP Notice:  Undefined variable: cur_program_completed in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:22:09 Asia/Kolkata] PHP Notice:  Undefined variable: cur_graduation_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 10:22:09 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 69
+[20-Jun-2024 14:22:31 Asia/Kolkata] PHP Notice:  Undefined index: degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 23
+[20-Jun-2024 14:22:32 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function prit_r() in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 29
+[20-Jun-2024 14:24:18 Asia/Kolkata] PHP Notice:  Undefined index: degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 23
+[20-Jun-2024 14:24:18 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function prit_r() in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 29
+[20-Jun-2024 14:26:09 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function prit_r() in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 29
+[20-Jun-2024 14:27:16 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 82
+[20-Jun-2024 14:27:16 Asia/Kolkata] PHP Notice:  Undefined variable: form_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 82
+[20-Jun-2024 14:27:16 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 82
+[20-Jun-2024 14:27:16 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 82
+[20-Jun-2024 14:35:11 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 85
+[20-Jun-2024 14:35:11 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 85
+[20-Jun-2024 14:35:11 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 85
+[20-Jun-2024 14:37:03 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_cert_status_list.php on line 14
+[20-Jun-2024 14:37:03 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_cert_status_list.php on line 14
+[20-Jun-2024 14:37:03 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_cert_status_list.php on line 14
+[20-Jun-2024 14:38:39 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_cert_status_list.php on line 14
+[20-Jun-2024 14:38:39 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_cert_status_list.php on line 14
+[20-Jun-2024 14:38:39 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_cert_status_list.php on line 14
+[20-Jun-2024 14:39:30 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_cert_status_list.php on line 14
+[20-Jun-2024 14:39:30 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_cert_status_list.php on line 14
+[20-Jun-2024 14:39:30 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_cert_status_list.php on line 14
+[20-Jun-2024 14:40:15 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_cert_status_list.php on line 14
+[20-Jun-2024 14:40:15 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_cert_status_list.php on line 14
+[20-Jun-2024 14:40:15 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_cert_status_list.php on line 14
+[20-Jun-2024 14:45:41 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_moc_occ_status_list.php on line 14
+[20-Jun-2024 14:45:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_moc_occ_status_list.php on line 14
+[20-Jun-2024 14:45:41 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_moc_occ_status_list.php on line 14
+[20-Jun-2024 14:45:54 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_moc_occ_status_list.php on line 14
+[20-Jun-2024 14:45:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_moc_occ_status_list.php on line 14
+[20-Jun-2024 14:45:54 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_moc_occ_status_list.php on line 14
+[20-Jun-2024 14:46:11 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_moc_occ_status_list.php on line 14
+[20-Jun-2024 14:46:11 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_moc_occ_status_list.php on line 14
+[20-Jun-2024 14:46:11 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_moc_occ_status_list.php on line 14
+[20-Jun-2024 14:47:16 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_moc_occ_status_list.php on line 14
+[20-Jun-2024 14:47:16 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_moc_occ_status_list.php on line 14
+[20-Jun-2024 14:47:16 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_moc_occ_status_list.php on line 14
+[20-Jun-2024 14:48:18 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_practice_facility_type_list.php on line 14
+[20-Jun-2024 14:48:18 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_practice_facility_type_list.php on line 14
+[20-Jun-2024 14:48:18 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_practice_facility_type_list.php on line 14
+[20-Jun-2024 14:48:28 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_practice_facility_type_list.php on line 14
+[20-Jun-2024 14:48:28 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_practice_facility_type_list.php on line 14
+[20-Jun-2024 14:48:28 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_practice_facility_type_list.php on line 14
+[20-Jun-2024 14:48:52 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_practice_facility_type_list.php on line 14
+[20-Jun-2024 14:48:52 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_practice_facility_type_list.php on line 14
+[20-Jun-2024 14:48:52 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_practice_facility_type_list.php on line 14
+[20-Jun-2024 14:49:06 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_practice_facility_type_list.php on line 14
+[20-Jun-2024 14:49:06 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_practice_facility_type_list.php on line 14
+[20-Jun-2024 14:49:06 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_practice_facility_type_list.php on line 14
+[20-Jun-2024 14:49:19 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_practice_facility_type_list.php on line 14
+[20-Jun-2024 14:49:19 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_practice_facility_type_list.php on line 14
+[20-Jun-2024 14:49:19 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_practice_facility_type_list.php on line 14
+[20-Jun-2024 14:49:33 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_practice_facility_type_list.php on line 14
+[20-Jun-2024 14:49:33 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_practice_facility_type_list.php on line 14
+[20-Jun-2024 14:49:33 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_practice_facility_type_list.php on line 14
+[20-Jun-2024 14:49:51 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_practice_facility_type_list.php on line 14
+[20-Jun-2024 14:49:51 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_practice_facility_type_list.php on line 14
+[20-Jun-2024 14:49:51 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_practice_facility_type_list.php on line 14
+[20-Jun-2024 14:51:19 Asia/Kolkata] PHP Notice:  Undefined variable: validation in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 82
+[20-Jun-2024 14:51:19 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function validate() on null in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php:82
+Stack trace:
+#0 {main}
+  thrown in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 82
+[20-Jun-2024 14:51:54 Asia/Kolkata] PHP Notice:  Undefined variable: validation in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 82
+[20-Jun-2024 14:51:54 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function validate() on null in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php:82
+Stack trace:
+#0 {main}
+  thrown in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 82
+[20-Jun-2024 14:52:16 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 14:52:16 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 14:52:16 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 14:54:19 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_website_list.php on line 14
+[20-Jun-2024 14:54:19 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_website_list.php on line 14
+[20-Jun-2024 14:54:19 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_website_list.php on line 14
+[20-Jun-2024 14:54:29 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_website_list.php on line 14
+[20-Jun-2024 14:54:29 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_website_list.php on line 14
+[20-Jun-2024 14:54:29 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_website_list.php on line 14
+[20-Jun-2024 14:54:56 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_website_list.php on line 14
+[20-Jun-2024 14:54:56 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_website_list.php on line 14
+[20-Jun-2024 14:54:56 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_website_list.php on line 14
+[20-Jun-2024 14:55:29 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_website_list.php on line 14
+[20-Jun-2024 14:55:29 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_website_list.php on line 14
+[20-Jun-2024 14:55:29 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_website_list.php on line 14
+[20-Jun-2024 14:55:57 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_website_list.php on line 14
+[20-Jun-2024 14:55:57 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_website_list.php on line 14
+[20-Jun-2024 14:55:57 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_website_list.php on line 14
+[20-Jun-2024 15:02:09 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_request_type_list.php on line 14
+[20-Jun-2024 15:02:09 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_request_type_list.php on line 14
+[20-Jun-2024 15:02:09 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_request_type_list.php on line 14
+[20-Jun-2024 15:03:10 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_request_type_list.php on line 14
+[20-Jun-2024 15:03:10 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_request_type_list.php on line 14
+[20-Jun-2024 15:03:10 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_request_type_list.php on line 14
+[20-Jun-2024 15:03:35 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_request_type_list.php on line 14
+[20-Jun-2024 15:03:35 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_request_type_list.php on line 14
+[20-Jun-2024 15:03:35 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_request_type_list.php on line 14
+[20-Jun-2024 15:04:18 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_request_type_list.php on line 14
+[20-Jun-2024 15:04:18 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_request_type_list.php on line 14
+[20-Jun-2024 15:04:18 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_request_type_list.php on line 14
+[20-Jun-2024 15:14:01 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[20-Jun-2024 15:14:01 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[20-Jun-2024 15:14:01 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[20-Jun-2024 15:14:23 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[20-Jun-2024 15:14:23 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[20-Jun-2024 15:14:23 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[20-Jun-2024 15:14:43 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[20-Jun-2024 15:14:43 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[20-Jun-2024 15:14:43 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[20-Jun-2024 15:14:58 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[20-Jun-2024 15:14:58 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[20-Jun-2024 15:14:58 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[20-Jun-2024 15:15:14 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[20-Jun-2024 15:15:14 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[20-Jun-2024 15:15:14 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[20-Jun-2024 15:15:31 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[20-Jun-2024 15:15:31 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[20-Jun-2024 15:15:31 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[20-Jun-2024 15:15:48 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[20-Jun-2024 15:15:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[20-Jun-2024 15:15:48 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[20-Jun-2024 16:23:07 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[20-Jun-2024 16:23:07 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[20-Jun-2024 16:23:07 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_method_of_request_list.php on line 14
+[20-Jun-2024 16:39:42 Asia/Kolkata] PHP Notice:  Undefined index: institute_type in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 29
+[20-Jun-2024 16:39:42 Asia/Kolkata] PHP Notice:  Undefined index: start_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 30
+[20-Jun-2024 16:39:42 Asia/Kolkata] PHP Notice:  Undefined index: end_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 31
+[20-Jun-2024 16:39:42 Asia/Kolkata] PHP Notice:  Undefined index: institute_name in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 32
+[20-Jun-2024 16:39:42 Asia/Kolkata] PHP Notice:  Undefined index: address_line_1 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 33
+[20-Jun-2024 16:39:42 Asia/Kolkata] PHP Notice:  Undefined index: address_line_2 in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 34
+[20-Jun-2024 16:39:42 Asia/Kolkata] PHP Notice:  Undefined index: address_city in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 35
+[20-Jun-2024 16:39:42 Asia/Kolkata] PHP Notice:  Undefined index: address_state in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 36
+[20-Jun-2024 16:39:42 Asia/Kolkata] PHP Notice:  Undefined index: address_country in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 37
+[20-Jun-2024 16:39:42 Asia/Kolkata] PHP Notice:  Undefined index: address_zipcode in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 38
+[20-Jun-2024 16:39:42 Asia/Kolkata] PHP Notice:  Undefined index: major in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 40
+[20-Jun-2024 16:39:42 Asia/Kolkata] PHP Notice:  Undefined index: program_completed in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 41
+[20-Jun-2024 16:39:42 Asia/Kolkata] PHP Notice:  Undefined index: graduation_date in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 42
+[20-Jun-2024 16:39:42 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 16:39:42 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 16:39:42 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 16:41:45 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_add_exam_history.php on line 23
+[20-Jun-2024 16:41:45 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_add_exam_history.php on line 24
+[20-Jun-2024 16:41:45 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_add_exam_history.php on line 25
+[20-Jun-2024 16:41:45 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_add_exam_history.php on line 26
+[20-Jun-2024 16:41:45 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_add_exam_history.php on line 27
+[20-Jun-2024 16:41:45 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_add_exam_history.php on line 28
+[20-Jun-2024 16:41:45 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_add_exam_history.php on line 29
+[20-Jun-2024 16:41:45 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_add_exam_history.php on line 30
+[20-Jun-2024 16:41:45 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_add_exam_history.php on line 31
+[20-Jun-2024 16:41:45 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_exam_history.php on line 91
+[20-Jun-2024 16:41:45 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_exam_history.php on line 91
+[20-Jun-2024 16:47:23 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_exam_history.php on line 91
+[20-Jun-2024 16:47:23 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_exam_history.php on line 91
+[20-Jun-2024 17:36:10 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:36:10 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:36:10 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:36:46 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:36:46 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:36:46 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:37:46 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:37:46 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:37:46 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:40:28 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:40:28 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:40:28 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:42:59 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:42:59 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:42:59 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:44:29 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:44:29 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:44:29 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:46:04 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:46:04 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:46:04 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:48:09 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:48:09 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:48:09 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:49:41 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:49:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:49:41 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:51:28 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:51:28 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:51:28 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:53:51 Asia/Kolkata] PHP Notice:  Undefined index: address_state in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 36
+[20-Jun-2024 17:53:51 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:53:51 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:53:51 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:54:36 Asia/Kolkata] PHP Notice:  Undefined index: address_state in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 36
+[20-Jun-2024 17:54:36 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:54:36 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:54:36 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:59:09 Asia/Kolkata] PHP Notice:  Undefined index: address_state in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 36
+[20-Jun-2024 17:59:09 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:59:09 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 17:59:09 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:01:45 Asia/Kolkata] PHP Notice:  Undefined index: address_state in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 36
+[20-Jun-2024 18:01:45 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:01:45 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:01:45 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:02:39 Asia/Kolkata] PHP Notice:  Undefined index: address_state in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 36
+[20-Jun-2024 18:02:39 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:02:39 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:02:39 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:04:59 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:04:59 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:04:59 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:08:24 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:08:24 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:08:24 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:10:17 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:10:17 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:10:17 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:13:02 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:13:02 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:13:02 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:14:23 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:14:23 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:14:23 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:16:40 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:16:40 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:16:40 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:17:54 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:17:54 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:17:54 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:18:45 Asia/Kolkata] PHP Notice:  Undefined index: address_state in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 36
+[20-Jun-2024 18:18:45 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:18:45 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:18:45 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:19:22 Asia/Kolkata] PHP Notice:  Undefined index: address_state in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 36
+[20-Jun-2024 18:19:22 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:19:22 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:19:22 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:20:58 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:20:58 Asia/Kolkata] PHP Notice:  Undefined variable: cur_degree in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:20:58 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_education_training.php on line 135
+[20-Jun-2024 18:25:33 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_add_exam_history.php on line 124
+[20-Jun-2024 18:25:33 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_add_exam_history.php on line 124
+[20-Jun-2024 19:37:14 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 29
+[20-Jun-2024 19:37:14 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 30
+[20-Jun-2024 19:37:14 Asia/Kolkata] PHP Notice:  Undefined index: is_meeting_moc in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 31
+[20-Jun-2024 19:37:14 Asia/Kolkata] PHP Notice:  Undefined index: is_indefinite in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 32
+[20-Jun-2024 19:37:14 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 33
+[20-Jun-2024 19:37:14 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 34
+[20-Jun-2024 19:37:14 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 35
+[20-Jun-2024 19:37:14 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 36
+[20-Jun-2024 19:37:14 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 37
+[20-Jun-2024 19:37:14 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 39
+[20-Jun-2024 19:37:14 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 40
+[20-Jun-2024 19:37:14 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 41
+[20-Jun-2024 19:37:14 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 42
+[20-Jun-2024 19:37:14 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 44
+[20-Jun-2024 19:37:14 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 45
+[20-Jun-2024 19:37:14 Asia/Kolkata] PHP Notice:  Undefined index: certificate_status in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 46
+[20-Jun-2024 19:37:14 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 47
+[20-Jun-2024 19:37:14 Asia/Kolkata] PHP Notice:  Undefined index: moc_occ_status in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 49
+[20-Jun-2024 19:37:14 Asia/Kolkata] PHP Notice:  Undefined index: meeting_moc_occ in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 50
+[20-Jun-2024 19:37:14 Asia/Kolkata] PHP Notice:  Undefined index: moc_occ_verifiaction_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 51
+[20-Jun-2024 19:37:14 Asia/Kolkata] PHP Notice:  Undefined index: annual_reverifiaction_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 52
+[20-Jun-2024 19:37:14 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 150
+[20-Jun-2024 19:37:14 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 150
+[20-Jun-2024 19:38:16 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 29
+[20-Jun-2024 19:38:16 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 30
+[20-Jun-2024 19:38:16 Asia/Kolkata] PHP Notice:  Undefined index: is_meeting_moc in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 31
+[20-Jun-2024 19:38:16 Asia/Kolkata] PHP Notice:  Undefined index: is_indefinite in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 32
+[20-Jun-2024 19:38:16 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 33
+[20-Jun-2024 19:38:16 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 34
+[20-Jun-2024 19:38:16 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 35
+[20-Jun-2024 19:38:16 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 36
+[20-Jun-2024 19:38:16 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 37
+[20-Jun-2024 19:38:16 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 38
+[20-Jun-2024 19:38:16 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 39
+[20-Jun-2024 19:38:16 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 40
+[20-Jun-2024 19:38:16 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 41
+[20-Jun-2024 19:38:16 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 42
+[20-Jun-2024 19:38:16 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 43
+[20-Jun-2024 19:38:16 Asia/Kolkata] PHP Notice:  Undefined index: certificate_status in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 44
+[20-Jun-2024 19:38:16 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 45
+[20-Jun-2024 19:38:16 Asia/Kolkata] PHP Notice:  Undefined index: moc_occ_status in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 47
+[20-Jun-2024 19:38:16 Asia/Kolkata] PHP Notice:  Undefined index: meeting_moc_occ in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 48
+[20-Jun-2024 19:38:16 Asia/Kolkata] PHP Notice:  Undefined index: moc_occ_verifiaction_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 49
+[20-Jun-2024 19:38:16 Asia/Kolkata] PHP Notice:  Undefined index: annual_reverifiaction_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 50
+[20-Jun-2024 19:38:16 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[20-Jun-2024 19:38:16 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:09:41 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:09:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_is_primary in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:09:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_is_board_eligible in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:09:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_is_meeting_moc in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:09:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_is_indefinite in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:09:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_is_member_medical_board in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:09:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_board_name in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:09:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_specialty in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:09:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_issue_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:09:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_expiry_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:09:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_certificate_no in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:09:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_focus in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:09:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_certificate_status in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:09:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_exam_passed in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:09:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_board_link in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:09:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_documents in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:09:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_certificate_duration in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:09:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_recertification_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:09:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_moc_occ_status in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:09:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_meeting_moc_occ in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:09:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_moc_occ_verifiaction_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:09:41 Asia/Kolkata] PHP Notice:  Undefined variable: cur_annual_reverifiaction_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:09:41 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:11:21 Asia/Kolkata] PHP Notice:  Undefined index: institute_type in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 27
+[21-Jun-2024 10:11:21 Asia/Kolkata] PHP Notice:  Undefined index: is_meeting_moc in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 31
+[21-Jun-2024 10:11:21 Asia/Kolkata] PHP Notice:  Undefined index: is_indefinite in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 32
+[21-Jun-2024 10:11:21 Asia/Kolkata] PHP Notice:  Undefined index: documents in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 43
+[21-Jun-2024 10:11:21 Asia/Kolkata] PHP Notice:  Undefined index: certificate_status in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 44
+[21-Jun-2024 10:11:21 Asia/Kolkata] PHP Notice:  Undefined index: moc_occ_status in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 47
+[21-Jun-2024 10:11:21 Asia/Kolkata] PHP Notice:  Undefined index: meeting_moc_occ in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 48
+[21-Jun-2024 10:11:21 Asia/Kolkata] PHP Notice:  Undefined index: moc_occ_verifiaction_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 49
+[21-Jun-2024 10:11:21 Asia/Kolkata] PHP Notice:  Undefined index: annual_reverifiaction_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 50
+[21-Jun-2024 10:11:21 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:11:21 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:12:06 Asia/Kolkata] PHP Notice:  Undefined index: is_meeting_moc in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 31
+[21-Jun-2024 10:12:06 Asia/Kolkata] PHP Notice:  Undefined index: is_indefinite in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 32
+[21-Jun-2024 10:12:06 Asia/Kolkata] PHP Notice:  Undefined index: documents in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 43
+[21-Jun-2024 10:12:06 Asia/Kolkata] PHP Notice:  Undefined index: certificate_status in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 44
+[21-Jun-2024 10:12:06 Asia/Kolkata] PHP Notice:  Undefined index: moc_occ_status in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 47
+[21-Jun-2024 10:12:06 Asia/Kolkata] PHP Notice:  Undefined index: meeting_moc_occ in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 48
+[21-Jun-2024 10:12:06 Asia/Kolkata] PHP Notice:  Undefined index: moc_occ_verifiaction_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 49
+[21-Jun-2024 10:12:06 Asia/Kolkata] PHP Notice:  Undefined index: annual_reverifiaction_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 50
+[21-Jun-2024 10:12:06 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:12:06 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:13:04 Asia/Kolkata] PHP Notice:  Undefined index: is_meeting_moc in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 27
+[21-Jun-2024 10:13:04 Asia/Kolkata] PHP Notice:  Undefined index: is_meeting_moc in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 31
+[21-Jun-2024 10:13:04 Asia/Kolkata] PHP Notice:  Undefined index: is_indefinite in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 32
+[21-Jun-2024 10:13:04 Asia/Kolkata] PHP Notice:  Undefined index: documents in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 43
+[21-Jun-2024 10:13:04 Asia/Kolkata] PHP Notice:  Undefined index: certificate_status in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 44
+[21-Jun-2024 10:13:04 Asia/Kolkata] PHP Notice:  Undefined index: moc_occ_status in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 47
+[21-Jun-2024 10:13:04 Asia/Kolkata] PHP Notice:  Undefined index: meeting_moc_occ in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 48
+[21-Jun-2024 10:13:04 Asia/Kolkata] PHP Notice:  Undefined index: moc_occ_verifiaction_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 49
+[21-Jun-2024 10:13:04 Asia/Kolkata] PHP Notice:  Undefined index: annual_reverifiaction_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 50
+[21-Jun-2024 10:13:04 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:13:04 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:13:12 Asia/Kolkata] PHP Notice:  Undefined index: is_meeting_moc in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 27
+[21-Jun-2024 10:13:12 Asia/Kolkata] PHP Notice:  Undefined index: is_meeting_moc in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 31
+[21-Jun-2024 10:13:12 Asia/Kolkata] PHP Notice:  Undefined index: is_indefinite in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 32
+[21-Jun-2024 10:13:12 Asia/Kolkata] PHP Notice:  Undefined index: documents in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 43
+[21-Jun-2024 10:13:12 Asia/Kolkata] PHP Notice:  Undefined index: certificate_status in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 44
+[21-Jun-2024 10:13:12 Asia/Kolkata] PHP Notice:  Undefined index: moc_occ_status in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 47
+[21-Jun-2024 10:13:12 Asia/Kolkata] PHP Notice:  Undefined index: meeting_moc_occ in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 48
+[21-Jun-2024 10:13:12 Asia/Kolkata] PHP Notice:  Undefined index: moc_occ_verifiaction_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 49
+[21-Jun-2024 10:13:12 Asia/Kolkata] PHP Notice:  Undefined index: annual_reverifiaction_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 50
+[21-Jun-2024 10:13:12 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:13:12 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:14:31 Asia/Kolkata] PHP Notice:  Undefined index: is_meeting_moc in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 31
+[21-Jun-2024 10:14:31 Asia/Kolkata] PHP Notice:  Undefined index: is_indefinite in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 32
+[21-Jun-2024 10:14:31 Asia/Kolkata] PHP Notice:  Undefined index: documents in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 43
+[21-Jun-2024 10:14:31 Asia/Kolkata] PHP Notice:  Undefined index: certificate_status in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 44
+[21-Jun-2024 10:14:31 Asia/Kolkata] PHP Notice:  Undefined index: moc_occ_status in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 47
+[21-Jun-2024 10:14:31 Asia/Kolkata] PHP Notice:  Undefined index: meeting_moc_occ in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 48
+[21-Jun-2024 10:14:31 Asia/Kolkata] PHP Notice:  Undefined index: moc_occ_verifiaction_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 49
+[21-Jun-2024 10:14:31 Asia/Kolkata] PHP Notice:  Undefined index: annual_reverifiaction_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 50
+[21-Jun-2024 10:14:31 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:14:31 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:15:08 Asia/Kolkata] PHP Notice:  Undefined index: is_meeting_moc in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 31
+[21-Jun-2024 10:15:08 Asia/Kolkata] PHP Notice:  Undefined index: is_indefinite in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 32
+[21-Jun-2024 10:15:08 Asia/Kolkata] PHP Notice:  Undefined index: documents in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 43
+[21-Jun-2024 10:15:08 Asia/Kolkata] PHP Notice:  Undefined index: certificate_status in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 44
+[21-Jun-2024 10:15:08 Asia/Kolkata] PHP Notice:  Undefined index: moc_occ_status in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 47
+[21-Jun-2024 10:15:08 Asia/Kolkata] PHP Notice:  Undefined index: meeting_moc_occ in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 48
+[21-Jun-2024 10:15:08 Asia/Kolkata] PHP Notice:  Undefined index: moc_occ_verifiaction_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 49
+[21-Jun-2024 10:15:08 Asia/Kolkata] PHP Notice:  Undefined index: annual_reverifiaction_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 50
+[21-Jun-2024 10:15:08 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:15:08 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:20:14 Asia/Kolkata] PHP Notice:  Undefined index: is_meeting_moc in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 31
+[21-Jun-2024 10:20:14 Asia/Kolkata] PHP Notice:  Undefined index: is_indefinite in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 32
+[21-Jun-2024 10:20:14 Asia/Kolkata] PHP Notice:  Undefined index: documents in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 43
+[21-Jun-2024 10:20:14 Asia/Kolkata] PHP Notice:  Undefined index: certificate_status in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 44
+[21-Jun-2024 10:20:14 Asia/Kolkata] PHP Notice:  Undefined index: moc_occ_status in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 47
+[21-Jun-2024 10:20:14 Asia/Kolkata] PHP Notice:  Undefined index: meeting_moc_occ in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 48
+[21-Jun-2024 10:20:14 Asia/Kolkata] PHP Notice:  Undefined index: moc_occ_verifiaction_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 49
+[21-Jun-2024 10:20:14 Asia/Kolkata] PHP Notice:  Undefined index: annual_reverifiaction_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 50
+[21-Jun-2024 10:20:14 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:20:14 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 148
+[21-Jun-2024 10:43:23 Asia/Kolkata] PHP Notice:  Undefined variable: _SESSION in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 25
+[21-Jun-2024 10:43:23 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 25
+[21-Jun-2024 10:43:23 Asia/Kolkata] PHP Notice:  Trying to access array offset on value of type null in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 25
+[21-Jun-2024 10:43:23 Asia/Kolkata] PHP Notice:  Undefined index: is_meeting_moc in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 31
+[21-Jun-2024 10:43:23 Asia/Kolkata] PHP Notice:  Undefined index: documents in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 43
+[21-Jun-2024 10:43:23 Asia/Kolkata] PHP Notice:  Undefined index: certificate_status in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 44
+[21-Jun-2024 10:43:23 Asia/Kolkata] PHP Notice:  Undefined index: moc_occ_status in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 47
+[21-Jun-2024 10:43:23 Asia/Kolkata] PHP Notice:  Undefined index: meeting_moc_occ in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 48
+[21-Jun-2024 10:43:23 Asia/Kolkata] PHP Notice:  Undefined index: moc_occ_verifiaction_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 49
+[21-Jun-2024 10:43:23 Asia/Kolkata] PHP Notice:  Undefined index: annual_reverifiaction_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 50
+[21-Jun-2024 10:43:23 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 147
+[21-Jun-2024 10:44:01 Asia/Kolkata] PHP Notice:  Undefined index: is_meeting_moc in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 31
+[21-Jun-2024 10:44:01 Asia/Kolkata] PHP Notice:  Undefined index: documents in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 43
+[21-Jun-2024 10:44:01 Asia/Kolkata] PHP Notice:  Undefined index: certificate_status in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 44
+[21-Jun-2024 10:44:01 Asia/Kolkata] PHP Notice:  Undefined index: moc_occ_status in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 47
+[21-Jun-2024 10:44:01 Asia/Kolkata] PHP Notice:  Undefined index: meeting_moc_occ in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 48
+[21-Jun-2024 10:44:01 Asia/Kolkata] PHP Notice:  Undefined index: moc_occ_verifiaction_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 49
+[21-Jun-2024 10:44:01 Asia/Kolkata] PHP Notice:  Undefined index: annual_reverifiaction_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 50
+[21-Jun-2024 10:44:01 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 147
+[21-Jun-2024 10:44:01 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 147
+[21-Jun-2024 10:44:43 Asia/Kolkata] PHP Notice:  Undefined index: is_meeting_moc in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 31
+[21-Jun-2024 10:44:43 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 43
+[21-Jun-2024 10:44:43 Asia/Kolkata] PHP Notice:  Undefined index: moc_occ_status in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 47
+[21-Jun-2024 10:44:43 Asia/Kolkata] PHP Notice:  Undefined index: meeting_moc_occ in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 48
+[21-Jun-2024 10:44:43 Asia/Kolkata] PHP Notice:  Undefined index: moc_occ_verifiaction_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 49
+[21-Jun-2024 10:44:43 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 147
+[21-Jun-2024 10:44:43 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 147
+[21-Jun-2024 10:49:13 Asia/Kolkata] PHP Notice:  Undefined index: is_meeting_moc in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 31
+[21-Jun-2024 10:49:13 Asia/Kolkata] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 43
+[21-Jun-2024 10:49:13 Asia/Kolkata] PHP Notice:  Undefined index: moc_occ_status in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 47
+[21-Jun-2024 10:49:13 Asia/Kolkata] PHP Notice:  Undefined index: meeting_moc_occ in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 48
+[21-Jun-2024 10:49:13 Asia/Kolkata] PHP Notice:  Undefined index: moc_occ_verifiaction_date in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 49
+[21-Jun-2024 10:49:13 Asia/Kolkata] PHP Notice:  Undefined variable: firm_id in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 147
+[21-Jun-2024 10:49:13 Asia/Kolkata] PHP Notice:  Undefined variable: created_by in /home/yuglogix/medelite.yuglogix.com/process/action_board_certificate_list.php on line 147

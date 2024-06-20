@@ -1,0 +1,5 @@
+[11-Jun-2024 18:54:51 Asia/Kolkata] PHP Warning:  Undefined array key "search" in /home/yuglogix/medelite.yuglogix.com/API/states/select_list.php on line 30
+[11-Jun-2024 18:54:51 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/yuglogix/medelite.yuglogix.com/API/states/select_list.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/yuglogix/medelite.yuglogix.com/API/states/select_list.php on line 42
