@@ -27,7 +27,7 @@
 		$page_offset = $page_limit * ($page_no - 1);
 
 		$search_qry = "";
-		if($_POST['search']){
+		if(isset($_POST['search'])){
 			$searchValue = $_POST['search'];
 			$search_qry = " AND (name LIKE '%".$searchValue."%')";
 		}

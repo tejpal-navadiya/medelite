@@ -11,9 +11,9 @@ $username = "root";
 $password = "";
 $dbname = "od_medelite";
 
-$project_url = "http://localhost/khushboo/medelite_new/API/";
-$front_url = "http://localhost/khushboo/medelite_new/";
-$main_url = "http://localhost/khushboo/medelite_new/";
+$project_url = "http://localhost/GitHub%20Project/medelite_new/API/";
+$front_url = "http://localhost/GitHub%20Project/medelite_new/";
+$main_url = "http://localhost/GitHub%20Project/medelite_new/";
 
 $default_country = 1;
 $default_date_format = "Y-m-d";

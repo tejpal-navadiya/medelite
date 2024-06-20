@@ -1,4 +1,5 @@
 <?php 
+    require_once("config.php");
     $cnt = $cnt_i + 1;
 ?>
 <div class="row col-sm-12" id="content_item<?php echo $cnt; ?>">
@@ -13,6 +14,21 @@
         <div class="form-group">
             <select name="institute_type[]" <?php echo $readonly;?> class="form-control" id="institute_type<?php echo $cnt; ?>" <?php echo $readonly; ?>>
                 <option value="">Select Type</option>
+                <?php
+                    $sql = "SELECT id, name FROM me_institution_type where is_deleted='0'";
+
+                    $result = $conn->query($sql);
+
+                    if ($result->num_rows > 0) {
+                        while ($row = $result->fetch_assoc()) {
+                            echo '<option value="' . $row["id"] . '">' . $row["name"] . '</option>';
+                        }
+                    } else {
+                        echo '<option value="">No found</option>';
+                    }
+                    
+                ?>
+
             </select>
             <span class="help" id="msg2"></span>
         </div>
@@ -81,6 +97,21 @@
         <label for="firstname" class="control-label">Degree<span class="text-danger">*</span> </label>
         <div class="form-group">
             <select name="degree[]" <?php echo $readonly;?> class="form-control" id="degree<?php echo $cnt; ?>" <?php echo $readonly; ?>>
+            <option value="">Select Degree</option>
+            <?php
+                    $sql = "SELECT id, name FROM me_degree where is_deleted='0'";
+
+                    $result = $conn->query($sql);
+
+                    if ($result->num_rows > 0) {
+                        while ($row = $result->fetch_assoc()) {
+                            echo '<option value="' . $row["id"] . '">' . $row["name"] . '</option>';
+                        }
+                    } else {
+                        echo '<option value="">No found</option>';
+                    }
+                    
+            ?>
             </select>
             <span class="help" id="msg2"></span>
         </div>
