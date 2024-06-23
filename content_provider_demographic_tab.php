@@ -114,7 +114,7 @@ require_once("config.php");
                             <div class="form-group">
                                 <!-- <input type="text" name="provider_type" data-is_validate="1" id="provider_type"  class="form-control" placeholder="Provider Type" value="<?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['provider_type'])){echo $OnBordingDetails['provider_type'];} ?>"  > -->
 
-                                <select data-placeholder="Select Provider" <?php echo $readonly;?> name="provider_type" id="provider_type"  class="select2 form-control" >
+                                <select data-placeholder="Select Provider" <?php echo $disabled;?> name="provider_type" id="provider_type"  class="select2 form-control" >
                                     <option value="">Select Title</option>
                                     <?php
 
@@ -184,7 +184,7 @@ require_once("config.php");
                         <div class="col-sm-6 col-md-4">
                             <div class="form-group">
                                
-                                <select data-placeholder="select state" <?php echo $readonly;?> data-is_validate="1" name="personal_address_state" id="personal_address_state"  class="form-control state_dropdown" placeholder="State" data-val_sel="<?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['personal_address_state_sel'])){echo base64_encode($OnBordingDetails['personal_address_state_sel']);} ?>" >
+                                <select data-placeholder="select state" <?php echo $disabled;?> data-is_validate="1" name="personal_address_state" id="personal_address_state"  class="form-control state_dropdown" placeholder="State" data-val_sel="<?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['personal_address_state_sel'])){echo base64_encode($OnBordingDetails['personal_address_state_sel']);} ?>" >
                                 </select>
                                 <span class="help" id="msg2"></span>
                             </div>
@@ -236,7 +236,7 @@ require_once("config.php");
                         <div class="col-sm-6 col-md-4">
                             <div class="form-group">
                                 <!-- <input type="text" maxlength="100" name="state" id="state"  class="form-control" placeholder="State" value="<?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['state'])){echo $OnBordingDetails['state'];} ?>" > -->
-                                <select data-placeholder="select state" <?php echo $readonly;?> data-is_validate="1" name="business_address_state" id="business_address_state"  class="form-control state_dropdown" placeholder="State" data-val_sel="<?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['business_address_state_sel'])){echo base64_encode($OnBordingDetails['business_address_state_sel']);} ?>" >
+                                <select data-placeholder="select state" <?php echo $disabled;?> data-is_validate="1" name="business_address_state" id="business_address_state"  class="form-control state_dropdown" placeholder="State" data-val_sel="<?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['business_address_state_sel'])){echo base64_encode($OnBordingDetails['business_address_state_sel']);} ?>" >
                                 </select>
                                 <span class="help" id="msg2"></span>
                             </div>
@@ -255,7 +255,7 @@ require_once("config.php");
                         <div class="col-sm-6 col-md-4">
                             <label for="firstname" class="control-label">Gender<span class="text-danger">*</span> </label>
                             <div class="form-group">
-                                <select name="gender" <?php echo $readonly;?> class="form-control" id="gender">
+                                <select name="gender" <?php echo $disabled;?> class="form-control" id="gender">
                                     <option value="Male" <?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['gender']) && $OnBordingDetails['gender']=="Male"){echo "selected";} ?>>Male</option>
                                     <option value="Female" <?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['gender']) && $OnBordingDetails['gender']=="Female"){echo "selected";} ?>>Female</option>
                                     <option value="Other" <?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['gender']) && $OnBordingDetails['gender']=="Other"){echo "selected";} ?>>Other</option>
@@ -266,14 +266,14 @@ require_once("config.php");
                         <div class="col-sm-6 col-md-4">
                             <label for="firstname" class="control-label">DOB<span class="text-danger">*</span> </label>
                             <div class="form-group">
-                                <input type="text" <?php echo $readonly;?> maxlength="100" name="dob" id="dob" data-is_validate="1"  class="form-control datepicker" placeholder="mm/dd/yyyy" value="<?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['dob'])){echo $OnBordingDetails['dob'];} ?>">
+                                <input type="text" <?php echo $disabled;?> maxlength="100" name="dob" id="dob" data-is_validate="1"  class="form-control datepicker" placeholder="mm/dd/yyyy" value="<?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['dob'])){echo $OnBordingDetails['dob'];} ?>">
                                 <span class="help" id="msg2"></span>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4">
                             <label for="firstname" class="control-label">Birth City<span class="text-danger">*</span> </label>
                             <div class="form-group">
-                                <input type="text" <?php echo $readonly;?> maxlength="100" name="birth_city" data-is_validate="1" id="birth_city"  class="form-control" placeholder="Birth City" value="<?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['birth_city'])){echo $OnBordingDetails['birth_city'];} ?>">
+                                <input type="text" <?php echo $disabled;?> maxlength="100" name="birth_city" data-is_validate="1" id="birth_city"  class="form-control" placeholder="Birth City" value="<?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['birth_city'])){echo $OnBordingDetails['birth_city'];} ?>">
                                 <span class="help" id="msg2"></span>
                             </div>
                         </div>
@@ -281,7 +281,7 @@ require_once("config.php");
                             <label for="firstname" class="control-label">Birth State<span class="text-danger">*</span> </label>
                             <div class="form-group">
                                 
-                                <select name="birth_state" <?php echo $readonly;?> data-is_validate="1" class="form-control state_dropdown" id="birth_state" data-val_sel="<?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['birth_state_sel'])){echo base64_encode($OnBordingDetails['birth_state_sel']);} ?>">
+                                <select name="birth_state" <?php echo $disabled;?> data-is_validate="1" class="form-control state_dropdown" id="birth_state" data-val_sel="<?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['birth_state_sel'])){echo base64_encode($OnBordingDetails['birth_state_sel']);} ?>">
                                     <option value="">Select State</option>
                                     
                                 </select>
@@ -291,7 +291,7 @@ require_once("config.php");
                         <div class="col-sm-6 col-md-4">
                             <label for="firstname" class="control-label">Birth Country<span class="text-danger">*</span> </label>
                             <div class="form-group">
-                                <select name="birth_country" <?php echo $readonly;?> data-is_validate="1" class="form-control country_dropdown" id="birth_country" data-val_sel="<?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['birth_country_sel'])){echo base64_encode($OnBordingDetails['birth_country_sel']);} ?>">
+                                <select name="birth_country" <?php echo $disabled;?> data-is_validate="1" class="form-control country_dropdown" id="birth_country" data-val_sel="<?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['birth_country_sel'])){echo base64_encode($OnBordingDetails['birth_country_sel']);} ?>">
                                     <option value="">Select Country</option>
                                     
                                 </select>
@@ -301,7 +301,7 @@ require_once("config.php");
                         <div class="col-sm-6 col-md-4">
                             <label for="firstname" class="control-label">Country of Citizenship<span class="text-danger">*</span> </label>
                             <div class="form-group">
-                                <select name="country_of_citizenship" <?php echo $readonly;?> data-is_validate="1" class="form-control country_dropdown" id="country_of_citizenship" data-val_sel="<?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['country_of_citizenship_sel'])){echo base64_encode($OnBordingDetails['country_of_citizenship_sel']);} ?>">
+                                <select name="country_of_citizenship" <?php echo $disabled;?> data-is_validate="1" class="form-control country_dropdown" id="country_of_citizenship" data-val_sel="<?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['country_of_citizenship_sel'])){echo base64_encode($OnBordingDetails['country_of_citizenship_sel']);} ?>">
                                     <option value="">Select Country</option>
                                     
                                 </select>
@@ -311,7 +311,7 @@ require_once("config.php");
                         <div class="col-sm-6 col-md-4">
                             <label for="firstname" class="control-label">Ethnicity<span class="text-danger">*</span> </label>
                             <div class="form-group">
-                                <select name="ethnicity" <?php echo $readonly;?> class="form-control select2" id="ethnicity">
+                                <select name="ethnicity" <?php echo $disabled;?> class="form-control select2" id="ethnicity">
                                     <option value="">Select Ethnicity</option>
                                     <?php
 
@@ -337,7 +337,7 @@ require_once("config.php");
                         <div class="col-sm-6 col-md-4">
                             <label for="firstname" class="control-label">Hair Color<span class="text-danger">*</span> </label>
                             <div class="form-group">
-                                <select name="hair_color" <?php echo $readonly;?> class="form-control select2" data-is_validate="1" id="hair_color">
+                                <select name="hair_color" <?php echo $disabled;?> class="form-control select2" data-is_validate="1" id="hair_color">
                                     <option value="">Select Hair Color</option>
                                     <?php 
                                         for ($i=0; $i < count($hair_color_list); $i++) 
@@ -358,7 +358,7 @@ require_once("config.php");
                         <div class="col-sm-6 col-md-4">
                             <label for="firstname" class="control-label">Eye Color<span class="text-danger">*</span> </label>
                             <div class="form-group">
-                                <select name="eye_color" <?php echo $readonly;?> class="form-control select2" id="eye_color" data-is_validate="1">
+                                <select name="eye_color" <?php echo $disabled;?> class="form-control select2" id="eye_color" data-is_validate="1">
                                     <option value="">Select Eye Color</option>
                                     <?php 
                                         for ($i=0; $i < count($eye_color_list); $i++) 
@@ -381,7 +381,7 @@ require_once("config.php");
                         <div class="col-sm-6 col-md-4">
                             <label for="firstname" class="control-label">Height(ft)<span class="text-danger">*</span> </label>
                             <div class="form-group">
-                                <select name="height_feet" <?php echo $readonly;?> class="form-control select2" id="height_feet" data-is_validate="1">
+                                <select name="height_feet" <?php echo $disabled;?> class="form-control select2" id="height_feet" data-is_validate="1">
                                     <option value="">Select Height</option>
                                     <?php 
                                         for ($i=1; $i < 10; $i++) 
@@ -404,7 +404,7 @@ require_once("config.php");
                         <div class="col-sm-6 col-md-4">
                             <label for="firstname" class="control-label">Height(in)<span class="text-danger">*</span> </label>
                             <div class="form-group">
-                                <select name="height_in" <?php echo $readonly;?> class="form-control select2" id="height_in" data-is_validate="1">
+                                <select name="height_in" <?php echo $disabled;?> class="form-control select2" id="height_in" data-is_validate="1">
                                     <option value="">Select Height</option>
                                     <?php 
                                         for ($i=1; $i < 13; $i++) 
@@ -445,7 +445,7 @@ require_once("config.php");
                             <label for="firstname" class="control-label">State Issued<span class="text-danger">*</span> </label>
                             <div class="form-group">
                                 <!-- <input type="text" name="state_issued" class="form-control" id="state_issued" /> -->
-                                <select data-placeholder="select state" <?php echo $readonly;?> name="state_issued" id="state_issued"  class="form-control state_dropdown" placeholder="State" data-val_sel="<?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['state_issued_sel'])){echo base64_encode($OnBordingDetails['state_issued_sel']);} ?>"  data-is_validate="1">
+                                <select data-placeholder="select state" <?php echo $disabled;?> name="state_issued" id="state_issued"  class="form-control state_dropdown" placeholder="State" data-val_sel="<?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['state_issued_sel'])){echo base64_encode($OnBordingDetails['state_issued_sel']);} ?>"  data-is_validate="1">
                                 </select>
                                 <span class="help" id="msg2"></span>
                             </div>
@@ -460,14 +460,14 @@ require_once("config.php");
                         <div class="col-sm-6 col-md-4">
                             <label for="firstname" class="control-label">Issue Date<span class="text-danger">*</span> </label>
                             <div class="form-group">
-                                <input type="text" maxlength="100" <?php echo $readonly;?> name="issue_date" id="issue_date"  class="form-control datepicker" placeholder="mm/dd/yyyy" value="<?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['issue_date'])){echo $OnBordingDetails['issue_date'];} ?>" data-is_validate="1">
+                                <input type="text" maxlength="100" <?php echo $disabled;?> name="issue_date" id="issue_date"  class="form-control datepicker" placeholder="mm/dd/yyyy" value="<?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['issue_date'])){echo $OnBordingDetails['issue_date'];} ?>" data-is_validate="1">
                                 <span class="help" id="msg2"></span>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4">
                             <label for="firstname" class="control-label">Expiry Date<span class="text-danger">*</span> </label>
                             <div class="form-group">
-                                <input type="text" maxlength="100" <?php echo $readonly;?> name="expiry_date" id="expiry_date"  class="form-control datepicker" placeholder="mm/dd/yyyy" value="<?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['expiry_date'])){echo $OnBordingDetails['expiry_date'];} ?>" data-is_validate="1">
+                                <input type="text" maxlength="100" <?php echo $disabled;?> name="expiry_date" id="expiry_date"  class="form-control datepicker" placeholder="mm/dd/yyyy" value="<?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['expiry_date'])){echo $OnBordingDetails['expiry_date'];} ?>" data-is_validate="1">
                                 <span class="help" id="msg2"></span>
                             </div>
                         </div>
@@ -505,18 +505,18 @@ require_once("config.php");
                         <div class="col-sm-12">
                             <label for="firstname" class="control-label">Are You Currently Serving Military or have you server military previously? </label>
                             <div class="form-group">
-                                <input type="radio" <?php echo $readonly;?> name="is_military_person" id="is_military_person_yes" value="1"   <?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['is_military_person']) && $OnBordingDetails['is_military_person']==1){echo "checked";} ?>> <label for="is_military_person_yes">Yes</label>
+                                <input type="radio" <?php echo $disabled;?> name="is_military_person" id="is_military_person_yes" value="1"   <?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['is_military_person']) && $OnBordingDetails['is_military_person']==1){echo "checked";} ?>> <label for="is_military_person_yes">Yes</label>
 
-                                <input type="radio" <?php echo $readonly;?> name="is_military_person" id="is_military_person_no" value="0"   <?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['is_military_person']) && $OnBordingDetails['is_military_person']==0){echo "checked";} ?>> <label for="is_military_person_no">No</label>
+                                <input type="radio" <?php echo $disabled;?> name="is_military_person" id="is_military_person_no" value="0"   <?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['is_military_person']) && $OnBordingDetails['is_military_person']==0){echo "checked";} ?>> <label for="is_military_person_no">No</label>
                                 <span class="help" id="msg2"></span>
                             </div>
                         </div>
                         <div class="col-sm-12">
                             <label for="firstname" class="control-label">Are you married to, or in a domestic partnership or other legal union, with an active-duty member of the U.S. military officially assigned to duty? </label>
                             <div class="form-group">
-                                <input type="radio" <?php echo $readonly;?> name="is_partner_military_person" id="is_partner_military_person_yes" value="1"   <?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['is_partner_military_person']) && $OnBordingDetails['is_partner_military_person']==1){echo "checked";} ?>> <label for="is_partner_military_person_yes">Yes</label>
+                                <input type="radio" <?php echo $disabled;?> name="is_partner_military_person" id="is_partner_military_person_yes" value="1"   <?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['is_partner_military_person']) && $OnBordingDetails['is_partner_military_person']==1){echo "checked";} ?>> <label for="is_partner_military_person_yes">Yes</label>
 
-                                <input type="radio" <?php echo $readonly;?> name="is_partner_military_person" id="is_partner_military_person_no" value="0"   <?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['is_partner_military_person']) && $OnBordingDetails['is_partner_military_person']==0){echo "checked";} ?>> <label for="is_partner_military_person_no">No</label>
+                                <input type="radio" <?php echo $disabled;?> name="is_partner_military_person" id="is_partner_military_person_no" value="0"   <?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['is_partner_military_person']) && $OnBordingDetails['is_partner_military_person']==0){echo "checked";} ?>> <label for="is_partner_military_person_no">No</label>
                                 <span class="help" id="msg2"></span>
                             </div>
                         </div>
@@ -532,14 +532,14 @@ require_once("config.php");
                         <div class="col-sm-6 col-md-4">
                             <label for="firstname" class="control-label">Service Begin Date<span class="text-danger">*</span> </label>
                             <div class="form-group">
-                                <input type="text" <?php echo $readonly;?> maxlength="100" name="service_start_date" id="service_start_date"  class="form-control datepicker" placeholder="mm/dd/yyyy" value="<?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['service_start_date'])){echo $OnBordingDetails['service_start_date'];} ?>">
+                                <input type="text" <?php echo $disabled;?> maxlength="100" name="service_start_date" id="service_start_date"  class="form-control datepicker" placeholder="mm/dd/yyyy" value="<?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['service_start_date'])){echo $OnBordingDetails['service_start_date'];} ?>">
                                 <span class="help" id="msg2"></span>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4">
                             <label for="firstname" class="control-label">Service End Date<span class="text-danger">*</span> </label>
                             <div class="form-group">
-                                <input type="text" <?php echo $readonly;?> maxlength="100" name="service_end_date" id="service_end_date"  class="form-control datepicker" placeholder="mm/dd/yyyy" value="<?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['service_end_date'])){echo $OnBordingDetails['service_end_date'];} ?>">
+                                <input type="text" <?php echo $disabled;?> maxlength="100" name="service_end_date" id="service_end_date"  class="form-control datepicker" placeholder="mm/dd/yyyy" value="<?php if(isset($_REQUEST['id']) && isset($OnBordingDetails['service_end_date'])){echo $OnBordingDetails['service_end_date'];} ?>">
                                 <span class="help" id="msg2"></span>
                             </div>
                         </div>

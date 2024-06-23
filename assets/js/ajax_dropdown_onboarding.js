@@ -154,11 +154,12 @@ function SubmitLastOnboardingForm(status)
         },
         callback: function (result) 
         {
+          // alert(result);
           // console.log(result);
           if(result)
           {
-            $("#application_status").val(application_status);
-
+             $("#application_status").val(application_status);
+            // alert(data);
             setTimeout(function (e) {
               document.getElementById('submit').click();
             }, 1000);

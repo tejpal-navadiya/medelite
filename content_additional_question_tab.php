@@ -7,7 +7,14 @@
                         <h3 class="card-title"><?php if(isset($_REQUEST['id'])) {echo "Update";}else{echo "Add";} ?> Additional Questions Details</h3>
                     </div>
                     <div class="col-sm-6 text-right">
+                    <?php 
+                        if($is_readonly)
+                        {
+                    ?>
+                    <a href="index.php?pid=add_boarding_form&id=<?php echo $_REQUEST['id'] ?>&tab=require-supporting-doc" id="" class="btn btn-default">back</a>
+                    <?php }else{ ?>
                         <button type="button" onclick="SubmitCurrentForm()" class="btn btn-primary btn-sm"><?php   if(isset($is_admin_form) && $is_admin_form == 1 ){echo "Update Details";}else{echo "Save & Next";} ?></button>
+                    <?php } ?>
                     </div>        
 
                 </div>
@@ -84,8 +91,8 @@
                                         </div>
                                         <div class="col-md-4 col-lg-3 text-right">
                                             <input type="hidden" value="<?php echo $di; ?>" name="question_id[]" />
-                                            <input type="radio" value="1" <?php if(isset($questions_detail[$cdi]) && is_array($questions_detail[$cdi]) && $questions_detail[$cdi]['answer']=="1"){echo "checked";} ?> id="<?php echo $id_yes_param; ?>" name="<?php echo $name_param; ?>" /><label for="<?php echo $id_yes_param; ?>">Yes</label>
-                                            <input type="radio" value="0" <?php if(isset($questions_detail[$cdi]) && is_array($questions_detail[$cdi])) { if($questions_detail[$cdi]['answer']=="0"){echo "checked";}}else{echo "checked";} ?> id="<?php echo $id_no_param; ?>" name="<?php echo $name_param; ?>" /><label for="<?php echo $id_no_param; ?>">No</label>
+                                            <input type="radio" <?php echo $disabled;?> value="1" <?php if(isset($questions_detail[$cdi]) && is_array($questions_detail[$cdi]) && $questions_detail[$cdi]['answer']=="1"){echo "checked";} ?> id="<?php echo $id_yes_param; ?>" name="<?php echo $name_param; ?>" /><label for="<?php echo $id_yes_param; ?>">Yes</label>
+                                            <input type="radio"  <?php echo $disabled;?> value="0" <?php if(isset($questions_detail[$cdi]) && is_array($questions_detail[$cdi])) { if($questions_detail[$cdi]['answer']=="0"){echo "checked";}}else{echo "checked";} ?> id="<?php echo $id_no_param; ?>" name="<?php echo $name_param; ?>" /><label for="<?php echo $id_no_param; ?>">No</label>
                                         </div>    
                                     </div>
                                 </div>
@@ -101,9 +108,12 @@
                         {
                         }else
                         {
+                            if(!$is_readonly)
+                                {
                         ?>
+                        
                             <button type="button" id="save_submit" onclick="SubmitLastOnboardingForm('0');" class="btn-pill btn-shadow btn-wide fsize-1 btn btn-primary">Save As Draft</button>
-                        <?php }?>
+                        <?php } } ?>
                         <!-- <a href="index.php?pid=add_boarding_form&id=<?php echo $_REQUEST['id'] ?>&tab=require-supporting-doc" id="" class="btn btn-default"><?php   if(isset($is_admin_form) && $is_admin_form == 1 ){echo "Update Details";}else{echo "Save";} ?></a> -->
                         <?php
                             if(isset($is_admin_form) && $is_admin_form == 1 ){
@@ -118,7 +128,20 @@
                             ?>
                         <input type="submit" id="submit" style="display:none;"/>
                         <input type="hidden" id="application_status" name="status" value="0"/>
-                        <button type="button" id="save_submit" onclick="SubmitLastOnboardingForm('1');" class="btn-pill btn-shadow btn-wide fsize-1 btn btn-primary">Submit</button>
+                        <?php 
+                                if($is_readonly)
+                                {
+                                    ?>
+                                    <!-- <a href="index.php?pid=add_boarding_form&tab=additional-question&id=<?php echo $_REQUEST['id'];?>"  class="btn-pill btn-shadow btn-wide fsize-1 btn btn-primary">Next</a> -->
+                                    <?php
+                                }else
+                                {
+                                    ?>
+                                        <button type="submit" id="submit" class="btn-pill btn-shadow btn-wide fsize-1 btn btn-primary"><?php   if(isset($is_admin_form) && $is_admin_form == 1 ){echo "Update Details";}else{echo "Save & Next";} ?></button>
+                                    <?php
+                                }
+                             ?>
+                        <!-- <button type="button" id="save_submit" onclick="SubmitLastOnboardingForm('1');" class="btn-pill btn-shadow btn-wide fsize-1 btn btn-primary">Submit</button> -->
                         </div>
 
 

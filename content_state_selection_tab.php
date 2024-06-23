@@ -29,7 +29,15 @@
                         <h3 class="card-title"><?php if(isset($_REQUEST['id'])) {echo "Update";}else{echo "Add";} ?> State Seletion</h3>
                     </div>
                     <div class="col-sm-6 text-right">
+                    <?php 
+                        if($is_readonly)
+                        {
+                    ?>
+                    <a href="index.php?pid=add_boarding_form&tab=licensure&id=<?php echo $_REQUEST['id'];?>"  class="btn-pill btn-shadow btn-wide fsize-1 btn btn-primary">Next</a>
+                    <?php }else{ ?>
+
                         <button type="button" onclick="SubmitCurrentForm()" class="btn btn-primary btn-sm"><?php   if(isset($is_admin_form) && $is_admin_form == 1 ){echo "Update Details";}else{echo "Save & Next";} ?></button>
+                    <?php } ?>
                     </div>        
 
                 </div>
@@ -77,7 +85,8 @@
                                 ?>
                                    <div class="col-md-4 col-sm-6 custom-state-option-wrapper">
                                     <label for="state_id<?php echo $cid; ?>"><?php echo $cname; ?></label>
-                                    <input type="checkbox" name="state_id[]" <?php if(isset($states_detail) &&is_array($states_detail) && in_array($cid,$states_detail)){echo "checked";} ?> value="<?php echo $cid; ?>" id="state_id<?php echo $cid; ?>" />
+
+                                    <input type="checkbox" name="state_id[]" <?php echo $disabled; ?> <?php if(isset($states_detail) &&is_array($states_detail) && in_array($cid,$states_detail)){echo "checked";} ?> value="<?php echo $cid; ?>" id="state_id<?php echo $cid; ?>" />
                                    </div> 
                                 <?php
                             }
@@ -98,7 +107,20 @@
                             <?php
                             }
                             ?>
-                            <button type="submit" id="submit" class="btn-pill btn-shadow btn-wide fsize-1 btn btn-primary"><?php   if(isset($is_admin_form) && $is_admin_form == 1 ){echo "Update Details";}else{echo "Save & Next";} ?></button>
+                            <!-- <button type="submit" id="submit" class="btn-pill btn-shadow btn-wide fsize-1 btn btn-primary"><?php   if(isset($is_admin_form) && $is_admin_form == 1 ){echo "Update Details";}else{echo "Save & Next";} ?></button> -->
+                            <?php 
+                                if($is_readonly)
+                                {
+                                    ?>
+                                    <a href="index.php?pid=add_boarding_form&tab=licensure&id=<?php echo $_REQUEST['id'];?>"  class="btn-pill btn-shadow btn-wide fsize-1 btn btn-primary">Next</a>
+                                    <?php
+                                }else
+                                {
+                                    ?>
+                                        <button type="submit" id="submit" class="btn-pill btn-shadow btn-wide fsize-1 btn btn-primary"><?php   if(isset($is_admin_form) && $is_admin_form == 1 ){echo "Update Details";}else{echo "Save & Next";} ?></button>
+                                    <?php
+                                }
+                             ?>
                         </div>
 
 

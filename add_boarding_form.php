@@ -91,6 +91,8 @@
         $eye_color_list=array("amber", "blue", "brown", "gray", "green", "hazel", "red");   
         $hair_color_list=array("Black" ,"Dark brown","Medium brown","Natural brown","Light brown","Chestnut brown","Light chestnut brown","Auburn","Red","Orange red","Copper","Titian","Strawberry blond","Light blond","Golden blond","Medium blond","Grey","White");   
         $readonly = $is_readonly ? 'readonly' : '';
+        $disabled = $is_readonly ? 'disabled' : '';
+        // echo 'readonly dtaa----'.$readonly;
 ?>
         
 

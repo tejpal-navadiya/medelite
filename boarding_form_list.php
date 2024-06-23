@@ -8,7 +8,7 @@ if(isset($is_provider_user) && $is_provider_user==1)
      $additional_condition=" AND me_onboarding_application.provider_name='".$_SESSION['me_user_id']."' ";
 }
 // Fetch data from the database
-$query = "SELECT 
+echo $query = "SELECT 
             me_onboarding_application.*, 
             me_provider.provider_name AS provider_name 
           FROM 

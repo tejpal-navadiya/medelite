@@ -12,7 +12,7 @@
     <div class="col-sm-6 col-md-4">
         <label for="firstname" class="control-label">Institution Type<span class="text-danger">*</span> </label>
         <div class="form-group">
-            <select name="institute_type[]" <?php echo $readonly;?> class="form-control" id="institute_type<?php echo $cnt; ?>" <?php echo $readonly; ?>>
+            <select name="institute_type[]" <?php echo $disabled;?> class="form-control" id="institute_type<?php echo $cnt; ?>" <?php echo $readonly; ?>>
                 <option value="">Select Type</option>
                 <?php
                     $sql = "SELECT id, name FROM me_institution_type where is_deleted='0'";
@@ -36,14 +36,14 @@
     <div class="col-sm-6 col-md-4">
         <label for="firstname" class="control-label">Start Date<span class="text-danger">*</span> </label>
         <div class="form-group">
-            <input type="text" maxlength="100" <?php echo $readonly;?> name="start_date[]" id="start_date<?php echo $cnt; ?>" class="form-control datepicker" placeholder="mm/dd/yyyy" value="<?php if (isset($cur_detail['start_date'])) { echo $cur_detail['start_date']; } ?>" <?php echo $readonly; ?>>
+            <input type="text" maxlength="100" <?php echo $disabled;?> name="start_date[]" id="start_date<?php echo $cnt; ?>" class="form-control datepicker" placeholder="mm/dd/yyyy" value="<?php if (isset($cur_detail['start_date'])) { echo $cur_detail['start_date']; } ?>" <?php echo $readonly; ?>>
             <span class="help" id="msg2"></span>
         </div>
     </div>
     <div class="col-sm-6 col-md-4">
         <label for="firstname" class="control-label">End Date<span class="text-danger">*</span> </label>
         <div class="form-group">
-            <input type="text" maxlength="100" <?php echo $readonly;?> name="end_date[]" id="end_date<?php echo $cnt; ?>" class="form-control datepicker" placeholder="mm/dd/yyyy" value="<?php if (isset($cur_detail['end_date'])) { echo $cur_detail['end_date']; } ?>" <?php echo $readonly; ?>>
+            <input type="text" maxlength="100" <?php echo $disabled;?> name="end_date[]" id="end_date<?php echo $cnt; ?>" class="form-control datepicker" placeholder="mm/dd/yyyy" value="<?php if (isset($cur_detail['end_date'])) { echo $cur_detail['end_date']; } ?>" <?php echo $readonly; ?>>
             <span class="help" id="msg2"></span>
         </div>
     </div>
@@ -75,7 +75,7 @@
     </div>
     <div class="col-sm-6 col-md-3">
         <div class="form-group">
-            <select data-placeholder="Select State" <?php echo $readonly;?> name="address_state[]" id="address_state<?php echo $cnt; ?>" class="form-control state_dropdown" placeholder="State" data-val_sel="<?php if (isset($cur_detail['address_state_name_sel'])) { echo base64_encode($cur_detail['address_state_name_sel']); } ?>" <?php echo $readonly; ?>></select>
+            <select data-placeholder="Select State" <?php echo $disabled;?> name="address_state[]" id="address_state<?php echo $cnt; ?>" class="form-control state_dropdown" placeholder="State" data-val_sel="<?php if (isset($cur_detail['address_state_name_sel'])) { echo base64_encode($cur_detail['address_state_name_sel']); } ?>" <?php echo $readonly; ?>></select>
             <span class="help" id="msg2"></span>
         </div>
     </div>
@@ -87,7 +87,7 @@
     </div>
     <div class="col-sm-6 col-md-3">
         <div class="form-group">
-            <select name="address_country[]" <?php echo $readonly;?> class="form-control country_dropdown" id="address_country<?php echo $cnt; ?>" data-val_sel="<?php if (isset($cur_detail['address_country_name_sel'])) { echo base64_encode($cur_detail['address_country_name_sel']); } ?>" <?php echo $readonly; ?>>
+            <select name="address_country[]" <?php echo $disabled;?> class="form-control country_dropdown" id="address_country<?php echo $cnt; ?>" data-val_sel="<?php if (isset($cur_detail['address_country_name_sel'])) { echo base64_encode($cur_detail['address_country_name_sel']); } ?>" <?php echo $readonly; ?>>
                 <option value="">Select Country</option>
             </select>
             <span class="help" id="msg2"></span>
@@ -96,7 +96,7 @@
     <div class="col-sm-6">
         <label for="firstname" class="control-label">Degree<span class="text-danger">*</span> </label>
         <div class="form-group">
-            <select name="degree[]" <?php echo $readonly;?> class="form-control" id="degree<?php echo $cnt; ?>" <?php echo $readonly; ?>>
+            <select name="degree[]" <?php echo $disabled;?> class="form-control" id="degree<?php echo $cnt; ?>" <?php echo $readonly; ?>>
             <option value="">Select Degree</option>
             <?php
                     $sql = "SELECT id, name FROM me_degree where is_deleted='0'";
@@ -135,7 +135,7 @@
     <div class="col-sm-6 col-md-4">
         <label for="firstname" class="control-label">Grad Date<span class="text-danger">*</span> </label>
         <div class="form-group">
-            <input type="text" maxlength="100" <?php echo $readonly;?> name="graduation_date[]" id="graduation_date<?php echo $cnt; ?>" class="form-control datepicker" placeholder="mm/dd/yyyy" value="<?php if (isset($cur_detail['graduation_date'])) { echo $cur_detail['graduation_date']; } ?>" <?php echo $readonly; ?>>
+            <input type="text" maxlength="100" <?php echo $disabled;?> name="graduation_date[]" id="graduation_date<?php echo $cnt; ?>" class="form-control datepicker" placeholder="mm/dd/yyyy" value="<?php if (isset($cur_detail['graduation_date'])) { echo $cur_detail['graduation_date']; } ?>" <?php echo $readonly; ?>>
             <span class="help" id="msg2"></span>
         </div>
     </div>

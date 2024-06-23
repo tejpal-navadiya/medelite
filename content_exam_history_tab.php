@@ -7,7 +7,14 @@
                         <h3 class="card-title"><?php if(isset($_REQUEST['id'])) {echo "Update";}else{echo "Add";} ?> Exam History Details</h3>
                     </div>
                     <div class="col-sm-6 text-right">
+                    <?php 
+                        if($is_readonly)
+                        {
+                    ?>
+                    <a href="index.php?pid=add_boarding_form&tab=board-certification&id=<?php echo $_REQUEST['id'];?>"  class="btn-pill btn-shadow btn-wide fsize-1 btn btn-primary">Next</a>
+                    <?php }else{ ?>
                         <button type="button" onclick="SubmitCurrentForm()" class="btn btn-primary btn-sm"><?php   if(isset($is_admin_form) && $is_admin_form == 1 ){echo "Update Details";}else{echo "Save & Next";} ?></button>
+                    <?php } ?>
                     </div>        
 
                 </div>
@@ -69,12 +76,13 @@
                     </div>
                         <!-- content_add_more_exam_history.php -->
                     
-                    <div class="row">    
+                    <div class="row"> 
+                        <?php if(!$is_readonly)
+                        { ?>   
                         <div class="col-sm-12 text-center">
-                            
                             <button type="button"  id="add_more_item" onclick="AddMoreItem('exam-history');" class="btn-pill btn-shadow btn-wide fsize-1 btn btn-primary">+ Add Exam</button>
                         </div>
-                        
+                        <?php } ?>
                         <div class="col-sm-12 text-center" style="margin-top:15px;">
                         <?php
                             if(isset($is_admin_form) && $is_admin_form == 1 ){
@@ -87,7 +95,20 @@
                             <?php
                             }
                             ?>
-                            <button type="submit" id="submit" class="btn-pill btn-shadow btn-wide fsize-1 btn btn-primary"><?php   if(isset($is_admin_form) && $is_admin_form == 1 ){echo "Update Details";}else{echo "Save & Next";} ?></button>
+                            <?php 
+                                if($is_readonly)
+                                {
+                                    ?>
+                                    <a href="index.php?pid=add_boarding_form&tab=board-certification&id=<?php echo $_REQUEST['id'];?>"  class="btn-pill btn-shadow btn-wide fsize-1 btn btn-primary">Next</a>
+                                    <?php
+                                }else
+                                {
+                                    ?>
+                                        <button type="submit" id="submit" class="btn-pill btn-shadow btn-wide fsize-1 btn btn-primary"><?php   if(isset($is_admin_form) && $is_admin_form == 1 ){echo "Update Details";}else{echo "Save & Next";} ?></button>
+                                    <?php
+                                }
+                             ?>
+                            <!-- <button type="submit" id="submit" class="btn-pill btn-shadow btn-wide fsize-1 btn btn-primary"><?php   if(isset($is_admin_form) && $is_admin_form == 1 ){echo "Update Details";}else{echo "Save & Next";} ?></button> -->
                         </div>
 
 

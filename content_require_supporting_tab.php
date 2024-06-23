@@ -17,7 +17,14 @@
                         <h3 class="card-title"><?php if(isset($_REQUEST['id'])) {echo "Update";}else{echo "Add";} ?> Required Supporting Document</h3>
                     </div>
                     <div class="col-sm-6 text-right">
+                    <?php 
+                        if($is_readonly)
+                        {
+                    ?>
+                    <a href="index.php?pid=add_boarding_form&tab=additional-question&id=<?php echo $_REQUEST['id'];?>"  class="btn-pill btn-shadow btn-wide fsize-1 btn btn-primary">Next</a>
+                    <?php }else{ ?>
                         <button type="button" onclick="SubmitCurrentForm()" class="btn btn-primary btn-sm"><?php   if(isset($is_admin_form) && $is_admin_form == 1 ){echo "Update Details";}else{echo "Save & Next";} ?></button>
+                    <?php } ?>
                     </div>        
 
                 </div>
@@ -58,7 +65,7 @@
                         <div class="col-sm-6">
                             <label for="firstname" class="control-label">Driver's License/Passport<span class="text-danger">*</span></label>
                             <div class="form-group">
-                                <input type="file" name="driver_license_passport" id="driver_license_passport"  class="form-control single-upload-file" placeholder="" value=""  >
+                                <input type="file" name="driver_license_passport"  <?php echo $disabled;?>  id="driver_license_passport"  class="form-control single-upload-file" placeholder="" value=""  >
                                 
                             <?php if(isset($supporting_documents_detail['driver_license_passport']) && $supporting_documents_detail['driver_license_passport']!="")
                             {
@@ -72,7 +79,7 @@
                         <div class="col-sm-6">
                             <label for="firstname" class="control-label">Social Security Card<span class="text-danger">*</span></label>
                             <div class="form-group">
-                                <input type="file" name="social_security_card" id="social_security_card"  class="form-control single-upload-file" placeholder="" value=""  >
+                                <input type="file" name="social_security_card"  <?php echo $disabled;?>  id="social_security_card"  class="form-control single-upload-file" placeholder="" value=""  >
                                 
                             <?php if(isset($supporting_documents_detail['social_security_card']) && $supporting_documents_detail['social_security_card']!="")
                             {
@@ -86,7 +93,7 @@
                         <div class="col-sm-6">
                             <label for="firstname" class="control-label">Birth Certificate</label>
                             <div class="form-group">
-                                <input type="file" name="birth_certificate" id="birth_certificate"  class="form-control single-upload-file" placeholder="" value=""  >
+                                <input type="file" name="birth_certificate"  <?php echo $disabled;?>  id="birth_certificate"  class="form-control single-upload-file" placeholder="" value=""  >
                                 
                             <?php if(isset($supporting_documents_detail['birth_certificate']) && $supporting_documents_detail['birth_certificate']!="")
                             {
@@ -100,7 +107,7 @@
                         <div class="col-sm-6">
                             <label for="firstname" class="control-label">Proof of name change</label>
                             <div class="form-group">
-                                <input type="file" name="proof_name_change" id="proof_name_change"  class="form-control single-upload-file" placeholder="" value=""  >
+                                <input type="file" name="proof_name_change" id="proof_name_change"   <?php echo $disabled;?>  class="form-control single-upload-file" placeholder="" value=""  >
                                 <?php if(isset($supporting_documents_detail['proof_name_change']) && $supporting_documents_detail['proof_name_change']!="")
                                 {
                                     $file_name=$supporting_documents_detail['proof_name_change'];
@@ -115,7 +122,7 @@
                         <div class="col-sm-6">
                             <label for="firstname" class="control-label">Medical School Diploma<span class="text-danger">*</span></label>
                             <div class="form-group">
-                                <input type="file" name="medical_diploma" id="medical_diploma"  class="form-control single-upload-file" placeholder="" value=""  >
+                                <input type="file" name="medical_diploma" id="medical_diploma"  <?php echo $disabled;?>   class="form-control single-upload-file" placeholder="" value=""  >
                                 
                             <?php if(isset($supporting_documents_detail['medical_diploma']) && $supporting_documents_detail['medical_diploma']!="")
                             {
@@ -130,7 +137,7 @@
                         <div class="col-sm-6">
                             <label for="firstname" class="control-label">Internship / Residency / Fellowship Certificates</label>
                             <div class="form-group">
-                                <input type="file" name="internship_certificate" id="internship_certificate"  class="form-control single-upload-file" placeholder="" value=""  >
+                                <input type="file" name="internship_certificate" id="internship_certificate"  <?php echo $disabled;?>   class="form-control single-upload-file" placeholder="" value=""  >
                                 
                             <?php if(isset($supporting_documents_detail['internship_certificate']) && $supporting_documents_detail['internship_certificate']!="")
                             {
@@ -145,7 +152,7 @@
                         <div class="col-sm-6">
                             <label for="firstname" class="control-label">USMLE / NBOME / Complex transcripts & scores<span class="text-danger">*</span></label>
                             <div class="form-group">
-                                <input type="file" name="transcripts_scores" id="transcripts_scores"  class="form-control single-upload-file" placeholder="" value=""  >
+                                <input type="file" name="transcripts_scores" id="transcripts_scores"   <?php echo $disabled;?>  class="form-control single-upload-file" placeholder="" value=""  >
                                 
                             <?php if(isset($supporting_documents_detail['transcripts_scores']) && $supporting_documents_detail['transcripts_scores']!="")
                             {
@@ -160,7 +167,7 @@
                         <div class="col-sm-6">
                             <label for="firstname" class="control-label">License(s) including DEA and/or CS<span class="text-danger">*</span></label>
                             <div class="form-group">
-                                <input type="file" name="license_dea_cs" id="license_dea_cs"  class="form-control single-upload-file" placeholder="" value=""  >
+                                <input type="file" name="license_dea_cs" id="license_dea_cs"  <?php echo $disabled;?>  class="form-control single-upload-file" placeholder="" value=""  >
                                 
                             <?php if(isset($supporting_documents_detail['license_dea_cs']) && $supporting_documents_detail['license_dea_cs']!="")
                             {
@@ -175,7 +182,7 @@
                         <div class="col-sm-6">
                             <label for="firstname" class="control-label">CME/CE Certificates and/or transcripts<span class="text-danger">*</span></label>
                             <div class="form-group">
-                                <input type="file" name="cme_ce_certificate" id="cme_ce_certificate"  class="form-control single-upload-file" placeholder="" value=""  >
+                                <input type="file" name="cme_ce_certificate" id="cme_ce_certificate"   <?php echo $disabled;?>  class="form-control single-upload-file" placeholder="" value=""  >
                                 
                             <?php if(isset($supporting_documents_detail['cme_ce_certificate']) && $supporting_documents_detail['cme_ce_certificate']!="")
                             {
@@ -190,7 +197,7 @@
                         <div class="col-sm-6">
                             <label for="firstname" class="control-label">Board Certification<span class="text-danger">*</span></label>
                             <div class="form-group">
-                                <input type="file" name="board_certificate" id="board_certificate"  class="form-control single-upload-file" placeholder="" value=""  >
+                                <input type="file" name="board_certificate" id="board_certificate"  <?php echo $disabled;?>  class="form-control single-upload-file" placeholder="" value=""  >
                                 
                             <?php if(isset($supporting_documents_detail['board_certificate']) && $supporting_documents_detail['board_certificate']!="")
                             {
@@ -206,7 +213,7 @@
                         <div class="col-sm-6">
                             <label for="firstname" class="control-label">Documentation of you current military status</label>
                             <div class="form-group">
-                                <input type="file" name="military_status_document" id="military_status_document"  class="form-control single-upload-file" placeholder="" value=""  >
+                                <input type="file" name="military_status_document" id="military_status_document"  <?php echo $disabled;?>  class="form-control single-upload-file" placeholder="" value=""  >
                                 
                             <?php if(isset($supporting_documents_detail['military_status_document']) && $supporting_documents_detail['military_status_document']!="")
                             {
@@ -221,7 +228,7 @@
                         <div class="col-sm-6">
                             <label for="firstname" class="control-label">Original Signature</label>
                             <div class="form-group">
-                                <input type="file" name="original_signature" id="original_signature"  class="form-control single-upload-file" placeholder="" value=""  >
+                                <input type="file" name="original_signature" id="original_signature"   <?php echo $disabled;?>  class="form-control single-upload-file" placeholder="" value=""  >
                                 
                             <?php if(isset($supporting_documents_detail['original_signature']) && $supporting_documents_detail['original_signature']!="")
                             {
@@ -236,7 +243,7 @@
                         <div class="col-sm-6">
                             <label for="firstname" class="control-label">CV</label>
                             <div class="form-group">
-                                <input type="file" name="cv" id="cv"  class="form-control single-upload-file" placeholder="" value=""  >
+                                <input type="file" name="cv" id="cv"  class="form-control single-upload-file"  <?php echo $disabled;?>  placeholder="" value=""  >
                                 
                             <?php if(isset($supporting_documents_detail['cv']) && $supporting_documents_detail['cv']!="")
                             {
@@ -251,7 +258,7 @@
                         <div class="col-sm-6">
                             <label for="firstname" class="control-label" style="font-size:15px!important;">Malpractice supporting documentation (If applicable)</label>
                             <div class="form-group">
-                                <input type="file" name="malpractice_support_document" id="malpractice_support_document"  class="form-control single-upload-file" placeholder="" value=""  >
+                                <input type="file" name="malpractice_support_document" id="malpractice_support_document"   <?php echo $disabled;?>  class="form-control single-upload-file" placeholder="" value=""  >
                                 
                             <?php if(isset($supporting_documents_detail['malpractice_support_document']) && $supporting_documents_detail['malpractice_support_document']!="")
                             {
@@ -267,7 +274,7 @@
                         <div class="col-sm-12">
                             <label for="firstname" class="control-label">Affirmative  Responses</label>
                             <div class="form-group">
-                                <input type="file" name="affirmative_response" id="affirmative_response"  class="form-control single-upload-file" placeholder="" value=""  >
+                                <input type="file" name="affirmative_response" id="affirmative_response"  <?php echo $disabled;?>  class="form-control single-upload-file" placeholder="" value=""  >
                                 
                             <?php if(isset($supporting_documents_detail['affirmative_response']) && $supporting_documents_detail['affirmative_response']!="")
                             {
@@ -282,7 +289,7 @@
                         <div class="col-sm-12">
                             <label for="firstname" class="control-label">Proof of malpractice insurance from previous employer(s) 10 years history of claim reports</label>
                             <div class="form-group">
-                                <input type="file" name="malpractice_insurance" id="malpractice_insurance"  class="form-control single-upload-file" placeholder="" value=""  >
+                                <input type="file" name="malpractice_insurance" id="malpractice_insurance"   <?php echo $disabled;?>  class="form-control single-upload-file" placeholder="" value=""  >
                                 
                             <?php if(isset($supporting_documents_detail['malpractice_insurance']) && $supporting_documents_detail['malpractice_insurance']!="")
                             {
@@ -297,7 +304,7 @@
                         <div class="col-sm-12">
                             <label for="firstname" class="control-label">NPDB self query report</label>
                             <div class="form-group">
-                                <input type="file" name="npdb_report" id="npdb_report"  class="form-control single-upload-file" placeholder="" value=""  >
+                                <input type="file" name="npdb_report" id="npdb_report"  class="form-control single-upload-file"  <?php echo $disabled;?>  placeholder="" value=""  >
                                 
                             <?php if(isset($supporting_documents_detail['npdb_report']) && $supporting_documents_detail['npdb_report']!="")
                             {
@@ -312,7 +319,7 @@
                         <div class="col-sm-6">
                             <label for="firstname" class="control-label">Passport Photo<span class="text-danger">*</span></label>
                             <div class="form-group">
-                                <input type="file" name="passport_photo" id="passport_photo"  class="form-control single-upload-file" placeholder="" value=""  >
+                                <input type="file" name="passport_photo" id="passport_photo"  class="form-control single-upload-file"  <?php echo $disabled;?>  placeholder="" value=""  >
                                 
                             <?php if(isset($supporting_documents_detail['passport_photo']) && $supporting_documents_detail['passport_photo']!="")
                             {
@@ -333,11 +340,24 @@
 
                            
                             ?>
-                            <a href="index.php?pid=add_boarding_form&id=<?php echo $_REQUEST['id']; ?>&tab=state-board-setup" id="" class="btn btn-default">back</a>
+                            <a href="index.php?pid=add_boarding_form&id=<?php echo $_REQUEST['id']; ?>&tab=state-board-setup" id=""  class="btn btn-default">back</a>
                             <?php
                             }
                             ?>
-                            <button type="submit" id="submit" class="btn-pill btn-shadow btn-wide fsize-1 btn btn-primary"><?php   if(isset($is_admin_form) && $is_admin_form == 1 ){echo "Update Details";}else{echo "Save & Next";} ?></button>
+                            <?php 
+                                if($is_readonly)
+                                {
+                                    ?>
+                                    <a href="index.php?pid=add_boarding_form&tab=additional-question&id=<?php echo $_REQUEST['id'];?>"  class="btn-pill btn-shadow btn-wide fsize-1 btn btn-primary">Next</a>
+                                    <?php
+                                }else
+                                {
+                                    ?>
+                                        <button type="submit" id="submit" class="btn-pill btn-shadow btn-wide fsize-1 btn btn-primary"><?php   if(isset($is_admin_form) && $is_admin_form == 1 ){echo "Update Details";}else{echo "Save & Next";} ?></button>
+                                    <?php
+                                }
+                             ?>
+                            <!-- <button type="submit" id="submit" class="btn-pill btn-shadow btn-wide fsize-1 btn btn-primary"><?php   if(isset($is_admin_form) && $is_admin_form == 1 ){echo "Update Details";}else{echo "Save & Next";} ?></button> -->
                         </div>
 
 

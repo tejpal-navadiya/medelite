@@ -7,7 +7,14 @@
                         <h3 class="card-title"><?php if(isset($_REQUEST['id'])) {echo "Update";}else{echo "Add";} ?> Education & Training Details</h3>
                     </div>
                     <div class="col-sm-6 text-right">
-                        <button type="button" onclick="SubmitCurrentForm()" class="btn btn-primary btn-sm"><?php   if(isset($is_admin_form) && $is_admin_form == 1 ){echo "Update Details";}else{echo "Save & Next";} ?></button>
+                    <?php 
+                        if($is_readonly)
+                        {
+                    ?>
+                    <a href="index.php?pid=add_boarding_form&tab=exam-history&id=<?php echo $_REQUEST['id'];?>"  class="btn-pill btn-shadow btn-wide fsize-1 btn btn-primary">Next</a>
+                    <?php }else{ ?>
+                            <button type="button" onclick="SubmitCurrentForm()" class="btn btn-primary btn-sm"><?php   if(isset($is_admin_form) && $is_admin_form == 1 ){echo "Update Details";}else{echo "Save & Next";} ?></button>
+                        <?php } ?>
                     </div>        
 
                 </div>
@@ -70,10 +77,13 @@
                         
                     </div>
                     <div class="row">
+                        <?php if(!$is_readonly)
+                         { ?>
                         <div class="col-sm-12 text-center">
                             
                             <button type="button"  id="add_more_item" onclick="AddMoreItem('education-training');" class="btn-pill btn-shadow btn-wide fsize-1 btn btn-primary">+ Add Institute</button>
                         </div>
+                        <?php } ?>
                         <div class="col-sm-12">
                             <label>Did You have a time gap more than 30 days medical school - graduate  training & post </label>
                             <input type="checkbox" value="1" id="is_time_gap_yes" name="is_time_gap" />Yes
@@ -91,7 +101,22 @@
                             <?php
                             }
                             ?>
-                            <button type="submit" id="submit" class="btn-pill btn-shadow btn-wide fsize-1 btn btn-primary"><?php   if(isset($is_admin_form) && $is_admin_form == 1 ){echo "Update Details";}else{echo "Save & Next";} ?></button>
+                            <!-- <button type="submit" id="submit" class="btn-pill btn-shadow btn-wide fsize-1 btn btn-primary"><?php   if(isset($is_admin_form) && $is_admin_form == 1 ){echo "Update Details";}else{echo "Save & Next";} ?></button> -->
+
+                            <?php 
+                                if($is_readonly)
+                                {
+                                    ?>
+                                    <a href="index.php?pid=add_boarding_form&tab=exam-history&id=<?php echo $_REQUEST['id'];?>"  class="btn-pill btn-shadow btn-wide fsize-1 btn btn-primary">Next</a>
+                                    <?php
+                                }else
+                                {
+                                    ?>
+                                        <button type="submit" id="submit" class="btn-pill btn-shadow btn-wide fsize-1 btn btn-primary"><?php   if(isset($is_admin_form) && $is_admin_form == 1 ){echo "Update Details";}else{echo "Save & Next";} ?></button>
+                                    <?php
+                                }
+                             ?>
+
                         </div>
 
 
